@@ -6,12 +6,12 @@
         Enemy enemy = new Enemy("Bandito Fuego");
 
         // Create 3 instances of Attacks
-        Attack fireball = new Attack("Fireball", 20);
+        Attack special = new Attack("Fireball", 20);
         Attack punch = new Attack("Chankla clap", 10);
         Attack throwAttack = new Attack("NageTobashi", 15);
 
         // Add these Attacks to the Enemy's Attack List
-        enemy.AddAttack(fireball);
+        enemy.AddAttack(special);
         enemy.AddAttack(punch);
         enemy.AddAttack(throwAttack);
 

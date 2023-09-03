@@ -5,6 +5,7 @@ public class Enemy
     private string Name;
     public string _Name {get {return Name;}} //implementation post-error CS0122: 'Enemy.Name' is inaccessible due to its protection level [C:\C#\GameDevI\GameDevI.csproj]
     private int health;
+    public int _health {get {return health;} }
     private List<Attack> AttackList;
 
     // public instance

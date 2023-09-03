@@ -1,0 +1,4 @@
+C:\C#\GameDevII\obj\Debug\net7.0\GameDevII.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\GameDevII\obj\Debug\net7.0\GameDevII.AssemblyInfoInputs.cache
+C:\C#\GameDevII\obj\Debug\net7.0\GameDevII.AssemblyInfo.cs
+C:\C#\GameDevII\obj\Debug\net7.0\GameDevII.csproj.CoreCompileInputs.cache

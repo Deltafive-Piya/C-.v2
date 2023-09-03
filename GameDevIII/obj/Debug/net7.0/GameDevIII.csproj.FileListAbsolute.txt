@@ -1,0 +1,14 @@
+C:\C#\GameDevIII\bin\Debug\net7.0\GameDevIII.exe
+C:\C#\GameDevIII\bin\Debug\net7.0\GameDevIII.deps.json
+C:\C#\GameDevIII\bin\Debug\net7.0\GameDevIII.runtimeconfig.json
+C:\C#\GameDevIII\bin\Debug\net7.0\GameDevIII.dll
+C:\C#\GameDevIII\bin\Debug\net7.0\GameDevIII.pdb
+C:\C#\GameDevIII\obj\Debug\net7.0\GameDevIII.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\GameDevIII\obj\Debug\net7.0\GameDevIII.AssemblyInfoInputs.cache
+C:\C#\GameDevIII\obj\Debug\net7.0\GameDevIII.AssemblyInfo.cs
+C:\C#\GameDevIII\obj\Debug\net7.0\GameDevIII.csproj.CoreCompileInputs.cache
+C:\C#\GameDevIII\obj\Debug\net7.0\GameDevIII.dll
+C:\C#\GameDevIII\obj\Debug\net7.0\refint\GameDevIII.dll
+C:\C#\GameDevIII\obj\Debug\net7.0\GameDevIII.pdb
+C:\C#\GameDevIII\obj\Debug\net7.0\GameDevIII.genruntimeconfig.cache
+C:\C#\GameDevIII\obj\Debug\net7.0\ref\GameDevIII.dll

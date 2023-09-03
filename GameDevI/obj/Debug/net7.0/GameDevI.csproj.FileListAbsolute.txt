@@ -1,0 +1,14 @@
+C:\C#\GameDevI\obj\Debug\net7.0\GameDevI.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\GameDevI\obj\Debug\net7.0\GameDevI.AssemblyInfoInputs.cache
+C:\C#\GameDevI\obj\Debug\net7.0\GameDevI.AssemblyInfo.cs
+C:\C#\GameDevI\obj\Debug\net7.0\GameDevI.csproj.CoreCompileInputs.cache
+C:\C#\GameDevI\bin\Debug\net7.0\GameDevI.exe
+C:\C#\GameDevI\bin\Debug\net7.0\GameDevI.deps.json
+C:\C#\GameDevI\bin\Debug\net7.0\GameDevI.runtimeconfig.json
+C:\C#\GameDevI\bin\Debug\net7.0\GameDevI.dll
+C:\C#\GameDevI\bin\Debug\net7.0\GameDevI.pdb
+C:\C#\GameDevI\obj\Debug\net7.0\GameDevI.dll
+C:\C#\GameDevI\obj\Debug\net7.0\refint\GameDevI.dll
+C:\C#\GameDevI\obj\Debug\net7.0\GameDevI.pdb
+C:\C#\GameDevI\obj\Debug\net7.0\GameDevI.genruntimeconfig.cache
+C:\C#\GameDevI\obj\Debug\net7.0\ref\GameDevI.dll

@@ -3,12 +3,12 @@
     static void Main(string[] args)
     {
         // Create an instance of an Enemy
-        Enemy enemy = new Enemy("Bandit");
+        Enemy enemy = new Enemy("Bandito Fuego");
 
         // Create 3 instances of Attacks
         Attack fireball = new Attack("Fireball", 20);
-        Attack punch = new Attack("Punch", 10);
-        Attack throwAttack = new Attack("Throw", 15);
+        Attack punch = new Attack("Chankla clap", 10);
+        Attack throwAttack = new Attack("NageTobashi", 15);
 
         // Add these Attacks to the Enemy's Attack List
         enemy.AddAttack(fireball);

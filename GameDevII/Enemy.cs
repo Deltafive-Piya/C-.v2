@@ -2,11 +2,9 @@
 public class Enemy
 {
     // Every Enemy will consist of stats(.this):
-    protected string Name;
-    public string _Name { get { return Name; } } //implementation post-error CS0122: 'Enemy.Name' is inaccessible due to its protection level [C:\C#\GameDevI\GameDevI.csproj]
-    protected int health;
-    public int _health { get { return health; } }
-    protected List<Attack> AttackList;
+    public string Name {get;set;}
+    public int health {get;set;}
+    public List<Attack> AttackList {get;set;}
 
     // public instance
     public Enemy(string name)
@@ -33,7 +31,7 @@ public class Enemy
     {
         if (AttackList.Count == 0)
         {
-            Console.WriteLine($"{_Name} has no attacks available.");
+            Console.WriteLine($"{Name} has no attacks available.");
             return;
         }
 
@@ -41,7 +39,7 @@ public class Enemy
         int randomIndex = random.Next(AttackList.Count);
         Attack selectedAttack = AttackList[randomIndex];
 
-        Console.WriteLine($"{_Name} performs {selectedAttack.Name} for {selectedAttack.DamageAmount} damage!");
+        Console.WriteLine($"{Name} performs {selectedAttack.Name} for {selectedAttack.DamageAmount} damage!");
     }
 
     // Action- New attack(target)

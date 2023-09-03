@@ -2,3 +2,13 @@ C:\C#\GameDevII\obj\Debug\net7.0\GameDevII.GeneratedMSBuildEditorConfig.editorco
 C:\C#\GameDevII\obj\Debug\net7.0\GameDevII.AssemblyInfoInputs.cache
 C:\C#\GameDevII\obj\Debug\net7.0\GameDevII.AssemblyInfo.cs
 C:\C#\GameDevII\obj\Debug\net7.0\GameDevII.csproj.CoreCompileInputs.cache
+C:\C#\GameDevII\bin\Debug\net7.0\GameDevII.exe
+C:\C#\GameDevII\bin\Debug\net7.0\GameDevII.deps.json
+C:\C#\GameDevII\bin\Debug\net7.0\GameDevII.runtimeconfig.json
+C:\C#\GameDevII\bin\Debug\net7.0\GameDevII.dll
+C:\C#\GameDevII\bin\Debug\net7.0\GameDevII.pdb
+C:\C#\GameDevII\obj\Debug\net7.0\GameDevII.dll
+C:\C#\GameDevII\obj\Debug\net7.0\refint\GameDevII.dll
+C:\C#\GameDevII\obj\Debug\net7.0\GameDevII.pdb
+C:\C#\GameDevII\obj\Debug\net7.0\GameDevII.genruntimeconfig.cache
+C:\C#\GameDevII\obj\Debug\net7.0\ref\GameDevII.dll

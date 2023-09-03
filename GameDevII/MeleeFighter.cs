@@ -9,13 +9,13 @@ public class MeleeFighter : Enemy
         AddAttack(new Attack("Superman Punch", 25));
     }
 
-    public void Rage()
+    public void Rage(Enemy target)
     {
         // Action- New Random (attack +10DA)
         Random random = new Random();
         int randomIndex = random.Next(AttackList.Count);
         Attack chosenAttack = AttackList[randomIndex];
         chosenAttack.DamageAmount += 10;
-        PerformAttack(this, chosenAttack);
+        PerformAttack(target, chosenAttack);
     }
 }

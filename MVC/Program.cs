@@ -22,4 +22,4 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}"
 );
 
-app.Run(); //'AppNameHere'.Run will always be at the bottom here
+app.Run(); //'AppNameHere'.Run should always be at the bottom here

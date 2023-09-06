@@ -1,0 +1,14 @@
+C:\C#\LinqEruption\bin\Debug\net7.0\LinqEruption.exe
+C:\C#\LinqEruption\bin\Debug\net7.0\LinqEruption.deps.json
+C:\C#\LinqEruption\bin\Debug\net7.0\LinqEruption.runtimeconfig.json
+C:\C#\LinqEruption\bin\Debug\net7.0\LinqEruption.dll
+C:\C#\LinqEruption\bin\Debug\net7.0\LinqEruption.pdb
+C:\C#\LinqEruption\obj\Debug\net7.0\LinqEruption.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\LinqEruption\obj\Debug\net7.0\LinqEruption.AssemblyInfoInputs.cache
+C:\C#\LinqEruption\obj\Debug\net7.0\LinqEruption.AssemblyInfo.cs
+C:\C#\LinqEruption\obj\Debug\net7.0\LinqEruption.csproj.CoreCompileInputs.cache
+C:\C#\LinqEruption\obj\Debug\net7.0\LinqEruption.dll
+C:\C#\LinqEruption\obj\Debug\net7.0\refint\LinqEruption.dll
+C:\C#\LinqEruption\obj\Debug\net7.0\LinqEruption.pdb
+C:\C#\LinqEruption\obj\Debug\net7.0\LinqEruption.genruntimeconfig.cache
+C:\C#\LinqEruption\obj\Debug\net7.0\ref\LinqEruption.dll

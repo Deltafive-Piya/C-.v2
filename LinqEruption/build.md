@@ -1,6 +1,6 @@
 #  <span style="color: white;">Volcano List Project</span>
 
-###### W/ provided List of Volcanos from:
+###### w/ provided List of Volcanos from:
 
 ###### https://data.noaa.gov/metaview/page?xml=NOAA/NESDIS/NGDC/MGG/Hazards/iso/xml/G10147.xml&view=getDataView
 
@@ -63,13 +63,13 @@
 
 ## <span style="color: white;">Pull data from a data set (eruptions.cs) using LINQ queries</span>
 
-        
+#### ~ Example instance from project ~        
 <span style="color: red;">Eruption</span> 
 <span style="color: magenta;">EruptionInChile <!-- Mdryboi init -->
     <span style="color: yellow;">=</span>eruptions<!-- Mdryboi -->
     <span style="color: yellow;">. <!-- Ydryboi init -->
         <span style="color: aqua;">First</span>
-        (</span><!-- YDryboi end   -->
+        ( </span><!-- YDryboi end   -->
     e<!-- Mdryboi -->
     <span style="color: yellow;">=></span>
     e.Location</span> <!-- Mdryboi end -->
@@ -86,11 +86,11 @@
 - New Class that preforms query actions
 
 <span style="color: yellow;">=</span> 
-eruptions<!-- Mdryboi -->
+<span style="color: magenta;">eruptions
 <span style="color: yellow;">.<span style="color: aqua;">First</span>
 (</span>e<span style="color: yellow;">=></span> e.Location</span>
 <span style="color: yellow;"> == <span style="color: orange;">"Chile"
-)</span>;-</span> 
+)</span></span> ;
 - Linq Query Statement
 
 </br>
@@ -234,7 +234,7 @@ eruptions<!-- Mdryboi -->
     Santorini
     Taupo
     Villarrica
-
+    
 10. 
 
     Total elevation of all volcanoes combined: 23303 meters

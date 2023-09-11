@@ -21,5 +21,13 @@ Within Program.cs, replace autogen'd
 
 -   The Name of the controller must follow guidelines to pair with the inner workings of C++++:
 
-    -   XxxController.cs (within the new Controllers Folder)
+    -    XxxController.cs (within the new Controllers Folder)
 
+<span style="color: orange;">Note:</span>
+continuously monitor and reload your application when code changes occur.
+
+        dotnet watch run
+
+   vs
+
+        dotnet run

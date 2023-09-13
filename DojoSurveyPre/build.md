@@ -16,14 +16,28 @@
         dotnet new mvc -o DojoSurvey
 
 #### <span style= "color: white;"> ~Model~ </span>
+(delete the useless files...)
 - create (folder and) ModelFile
 
     1) DojoForm.cs
 
-#### <span style= "color: white;"> ~Controller~ </span>
-- create (folder and) ControllerFile
+            Class DojoForm:
+                Name
+                Location
+                FavoriteLanguage
+                Comment
 
-    1) FormController.cs
+
+
+#### <span style= "color: white;"> ~Controller~ </span>
+- create (folder and) modify existing ControllerFile
+
+    1) HomeController.cs
+
+            Class HomeController
+                Display initial form
+                POST form submission
+                Display results form 
 
 #### <span style= "color: white;"> ~View(s)~ </span>
 - create (folder and) ViewFile

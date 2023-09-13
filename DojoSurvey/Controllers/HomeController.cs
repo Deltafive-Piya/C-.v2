@@ -1,31 +1,32 @@
-﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+
 using DojoSurvey.Models;
-
-namespace DojoSurvey.Controllers;
-
+using DojoSurvey.Controllers;
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
-    {
-        _logger = logger;
-    }
-
+    // Display- Initial Form
+    [HttpGet]
     public IActionResult Index()
     {
         return View();
     }
 
-    public IActionResult Privacy()
+    // POST- form submission
+    [HttpPost]
+    public IActionResult Index(DojoForm dojoForm)
     {
+        if (ModelState.IsValid)
+        {
+            return RedirectToAction("Results", dojoForm);
+        }
+
         return View();
     }
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
+    // Display- Results Form
+    [HttpGet]
+    public IActionResult Results(DojoForm dojoForm)
     {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        return View(dojoForm);
     }
 }

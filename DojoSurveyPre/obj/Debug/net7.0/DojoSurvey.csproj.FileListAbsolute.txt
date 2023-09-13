@@ -1,0 +1,7 @@
+C:\C#\DojoSurvey\obj\Debug\net7.0\DojoSurvey.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\DojoSurvey\obj\Debug\net7.0\DojoSurvey.AssemblyInfoInputs.cache
+C:\C#\DojoSurvey\obj\Debug\net7.0\DojoSurvey.AssemblyInfo.cs
+C:\C#\DojoSurvey\obj\Debug\net7.0\DojoSurvey.csproj.CoreCompileInputs.cache
+C:\C#\DojoSurvey\obj\Debug\net7.0\DojoSurvey.MvcApplicationPartsAssemblyInfo.cache
+C:\C#\DojoSurvey\obj\Debug\net7.0\DojoSurvey.RazorAssemblyInfo.cache
+C:\C#\DojoSurvey\obj\Debug\net7.0\DojoSurvey.RazorAssemblyInfo.cs

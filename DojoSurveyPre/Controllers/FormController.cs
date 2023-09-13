@@ -12,14 +12,6 @@ namespace DojoSurvey.Controllers
             return View();
         }
 
-        // Post Data
-        [HttpPost]
-        public IActionResult Index(DojoForm dojoForm) // Use DojoForm as the parameter type
-        {
-            // Lvl1 step: Render- PostRequest data//
-            return View("Results", dojoForm);
-        }
-
         // Get Data
         [HttpGet]
         public IActionResult Results(DojoForm dojoForm) // Use DojoForm as the parameter type
@@ -28,4 +20,12 @@ namespace DojoSurvey.Controllers
             return View("Results", dojoForm);
         }
     }
+
+        // Post Data
+        [HttpPost]
+        public IActionResult Index(DojoForm dojoForm) // Use DojoForm as the parameter type
+        {
+            // Lvl1 step: Render- PostRequest data//
+            return View("Results", dojoForm);
+        }
 }

@@ -1,18 +1,13 @@
 @model DojoSurvey.Models.DojoForm
 
-<h1>Results</h1>
+<h1>~Results~</h1>
 <p>Name: @Model.Name</p>
 <p>Dojo Location: @Model.DojoLocation</p>
 <p>Favorite Language: @Model.FavoriteLanguage</p>
 
-@* Conditional- Comment *@
+@* Conditional- Comment Section *@
 
 @if (!string.IsNullOrEmpty(Model.Comment))
-{
-    <p>Comment: @Model.Comment</p>
-}
-else
-{
-    <p>Comment: <span style="color: grey;">No comment</span></p>
-}
+    {<p>Comment: @Model.Comment</p>}
+else {<p>Comment: <span style="color: grey;">No comment yet...</span></p>}
 <a asp-action="Index" class="btn btn-secondary">Go Back</a>

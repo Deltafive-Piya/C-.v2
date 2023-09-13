@@ -13,7 +13,7 @@
 
 - Mkdir project (prject folder not yet created)
 
-        dotnet new mvc -o DojoSurvey
+        dotnet new web --no-https -o DojoSurvey
 
 #### <span style= "color: white;"> ~Model~ </span>
 (delete the useless files...)

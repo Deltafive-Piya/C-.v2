@@ -1,22 +1,30 @@
 @model DojoSurvey.Models.DojoForm
 
-<h1>Form</h1>
+<h1>Dojo Survey Form</h1>
 <form asp-action="Index" method="post">
+
     <div class="form-group">
-        <label for="Name">Name</label>
-        <textarea asp-for="Name" class="form-control"></textarea>
+        <label asp-for="Name">Name:</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
     </div>
+
     <div class="form-group">
-        <label for="DojoLocation">DojoLocation</label>
-        <input asp-for="DojoLocation" class="form-control" />
+        <label asp-for="Location">Dojo Location:</label>
+        <input asp-for="Location" class="form-control" />
+        <span asp-validation-for="Location" class="text-danger"></span>
     </div>
+
     <div class="form-group">
-        <label for="FavoriteLanguage">FavoriteLanguage</label>
-        <textarea asp-for="FavoriteLanguage" class="form-control"></textarea>
+        <label asp-for="FavoriteLanguage">Favorite Language:</label>
+        <input asp-for="FavoriteLanguage" class="form-control" />
+        <span asp-validation-for="FavoriteLanguage" class="text-danger"></span>
     </div>
+
     <div class="form-group">
-        <label for="Comment">Comment</label>
+        <label asp-for="Comment">Comment:</label>
         <textarea asp-for="Comment" class="form-control"></textarea>
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
+
 </form>

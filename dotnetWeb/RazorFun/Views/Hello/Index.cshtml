@@ -20,7 +20,15 @@
 
             foreach(string f in Foods)
             {
-                <p>@f</p>
+                if (f[0] == 'C')
+                {
+                    <p style="color: crimson">@f</p>
+                } else if (f[0] == 'U') {
+                    <p style="color: mediumorchid ">@f</p>
+                } else {
+                    <p>@f</p>
+                }
+                
             }
         }
     </body>

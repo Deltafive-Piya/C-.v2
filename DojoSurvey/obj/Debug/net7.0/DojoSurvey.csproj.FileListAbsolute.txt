@@ -23,3 +23,5 @@ C:\C#\DojoSurvey\obj\Debug\net7.0\refint\DojoSurvey.dll
 C:\C#\DojoSurvey\obj\Debug\net7.0\DojoSurvey.pdb
 C:\C#\DojoSurvey\obj\Debug\net7.0\DojoSurvey.genruntimeconfig.cache
 C:\C#\DojoSurvey\obj\Debug\net7.0\ref\DojoSurvey.dll
+C:\C#\DojoSurvey\obj\Debug\net7.0\DojoSurvey.RazorAssemblyInfo.cache
+C:\C#\DojoSurvey\obj\Debug\net7.0\DojoSurvey.RazorAssemblyInfo.cs

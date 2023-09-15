@@ -34,7 +34,7 @@
 
     1) HomeController.cs
 
-            Class HomeController
+            Class SurveyController
                 INDEX- Display initial form
                 GET-   Results form 
                 POST-  Form submission

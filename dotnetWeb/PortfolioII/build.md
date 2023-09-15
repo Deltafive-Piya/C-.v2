@@ -495,9 +495,80 @@ Some sections may not make sense in Github as they are not conditionally colored
 
 
 ### <span style= "color: yellow;">Bonus: Add some JavaScript for a more interactive user experience</span>
-- On Hover I want to expose the project images from their filter
+- On Hover I want to expose the project images from their filter ATTEMP FAILED, REVISIT
 
-    1) projects.css:
+    1) projects.cshtml:
 
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE-edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Piya- Projects Page</title>
+                <link rel="stylesheet" href="~/css/style.css">
+                <link rel="stylesheet" href="~/css/nav.css">
+                <link rel="stylesheet" href="~/css/projects.css">
+                <script src="~/scripts/projects.js"></script>
+            </head>
 
+            {
+            more code here....
+            }
 
+            <div class="content">
+                    <h1 class="center">My Projects</h1>
+                    <div class="projects">
+                        @* Project Instance *@
+                        <div class="project">
+                            <img class="project-img" src="~/images/minesweeper.jpg" alt="project one overview">
+                            <div>
+                                <h3>Project 1</h3>
+                                <p>
+            Minesweeper                    </p>
+                            </div>
+                        </div>
+                        @* Project Instance *@
+                        <div class="project">
+                            <img class="project-img" src="~/images/3D_Cadet.jpg" alt="project two overview">
+                            <div>
+                                <h3>Project 2</h3>
+                                <p>
+            3D Cadet                    </p>
+                            </div>
+                        </div>
+                        @* Project Instance *@
+                        <div class="project">
+                            <img class="project-img" src="~/images/spyfox.jpg" alt="project three overview">
+                            <div>
+                                <h3>Project 3</h3>
+                                <p>
+            SpyFox                    </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+    2) projects.js:
+            // Get all project images by their class name
+            const projectImages = document.querySelectorAll('.project-img');
+
+            // greyscale
+            function applyGreyscale() {
+                projectImages.forEach((image) => {
+                    image.style.filter = 'grayscale(100%)'; // Apply greyscale
+                });
+            }
+
+            // onHover- remove greyscale
+            function removeGreyscale(event) {
+                event.target.style.filter = 'none'; // Remove greyscale on hover
+            }
+
+            //Eventlistener- toggle greyscale
+            projectImages.forEach((image) => {
+                image.addEventListener('mouseenter', removeGreyscale);
+                image.addEventListener('mouseleave', applyGreyscale);
+            });
+
+            // initially...
+            applyGreyscale();

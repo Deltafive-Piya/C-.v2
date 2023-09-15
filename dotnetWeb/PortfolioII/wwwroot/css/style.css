@@ -12,21 +12,21 @@
 }
 
 .navbar a {
-    text-decoration: none; /* Remove underlines from links */
-    color: navajowhite; /* Text color for links */
+    text-decoration: none; /* DEFAULT- no underline */
+    color: navajowhite; /* DEFAULT color */
     margin: 0 10px; /* Add margin to separate links */
 }
 
 .navbar a:hover {
-    text-decoration: underline; /* Add underline on hover */
+    text-decoration: underline; /* State[hover]ColorToggler */
 }
 
-/* update index h1 styling --------------------*/
+/* update index styling --------------------*/
 
 h1 {
-    font-size: 24px; /* Adjust the font size as needed */
-    margin-top: 20px; /* Add space above the heading */
-    text-align: center; /* Center the heading text */
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
 }
 
 .navbar span {
@@ -35,7 +35,7 @@ h1 {
 
 .content {
     text-align: center;
-    margin: 20px; /* Add some margin for spacing */
+    margin: 20px;
 }
 
 .center {
@@ -44,29 +44,29 @@ h1 {
 
 .container {
     display: flex;
-    justify-content: space-between; /* Spread the children to left and right */
-    align-items: center; /* Vertically center the children */
-    margin-top: 20px; /* Add space between content and navigation */
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 20px;
 }
 
 /* Left content styles */
 .left {
-    flex: 1; /* Take up equal horizontal space */
+    flex: 1; /* 1 power */
     text-align: left;
 }
 
 /* Right content styles */
 .right {
-    flex: 1; /* Take up equal horizontal space */
+    flex: 1; /* 1 power */
 /*background color 2.0*/
     background: linear-gradient(to bottom, rgb(255, 248, 237), transparent);
     border-radius: 3px;
     border-bottom: solid 2px #333;
 }
 
-/* Image jammed down to 100px */
+/* Image prettified down to 200px */
 .size-compress-two-hundred {
-    border-radius: 4px;
-    max-width: 200px; /* Compress to 100px */
+    border-radius: 4px;/* Prettify */
+    max-width: 200px; /* Compression- 200px */
     height: auto; /* AspectRatioKeeper */
 }

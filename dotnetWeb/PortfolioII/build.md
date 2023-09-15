@@ -189,8 +189,10 @@
 <span style= "color: white;">Allow for storage of media; within Images Folder within wwwroot Folder:</span>
 -       mkdir images
     - within that images Folder, populate with media
-            
-- <span style= "color: white;">Touch Index.cshtml:</span>
+
+##### <span style= "color: white;">Index.cshtml & Style.css (Picture, Name About Me Section):</span>
+
+1) <span style= "color: white;">Touch Index.cshtml:</span>
 
         <!DOCTYPE html>
         <html lang="en">
@@ -225,7 +227,7 @@
         </body>
         </html>
 
-- <span style= "color: white;">Touch Style.css:</span>
+2) <span style= "color: white;">Touch Style.css: Navbar and Index Page styling</span>
 
         * {
         font-family: monospace;

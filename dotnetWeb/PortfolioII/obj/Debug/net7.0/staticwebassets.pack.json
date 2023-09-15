@@ -1,12 +1,40 @@
 {
   "Files": [
     {
+      "Id": "C:\\C#\\dotnetWeb\\PortfolioII\\wwwroot\\css\\contact.css",
+      "PackagePath": "staticwebassets\\css\\contact.css"
+    },
+    {
+      "Id": "C:\\C#\\dotnetWeb\\PortfolioII\\wwwroot\\css\\nav.css",
+      "PackagePath": "staticwebassets\\css\\nav.css"
+    },
+    {
+      "Id": "C:\\C#\\dotnetWeb\\PortfolioII\\wwwroot\\css\\projects.css",
+      "PackagePath": "staticwebassets\\css\\projects.css"
+    },
+    {
       "Id": "C:\\C#\\dotnetWeb\\PortfolioII\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
+      "Id": "C:\\C#\\dotnetWeb\\PortfolioII\\wwwroot\\images\\3D_Cadet.jpg",
+      "PackagePath": "staticwebassets\\images\\3D_Cadet.jpg"
+    },
+    {
+      "Id": "C:\\C#\\dotnetWeb\\PortfolioII\\wwwroot\\images\\minesweeper.jpg",
+      "PackagePath": "staticwebassets\\images\\minesweeper.jpg"
+    },
+    {
       "Id": "C:\\C#\\dotnetWeb\\PortfolioII\\wwwroot\\images\\pfp.jpg",
       "PackagePath": "staticwebassets\\images\\pfp.jpg"
+    },
+    {
+      "Id": "C:\\C#\\dotnetWeb\\PortfolioII\\wwwroot\\images\\spyfox.jpg",
+      "PackagePath": "staticwebassets\\images\\spyfox.jpg"
+    },
+    {
+      "Id": "C:\\C#\\dotnetWeb\\PortfolioII\\wwwroot\\scripts\\projects.js",
+      "PackagePath": "staticwebassets\\scripts\\projects.js"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.PortfolioI.Microsoft.AspNetCore.StaticWebAssets.props",

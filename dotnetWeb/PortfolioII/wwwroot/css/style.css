@@ -1,26 +1,6 @@
 * {
     font-family: monospace;
 }
-
-.navbar {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #333; /* Background color of the navbar */
-    color: white; /* Text color for links and separators */
-    padding: 10px; /* Add some padding for better spacing */
-    border-radius: 4px;
-}
-
-.navbar a {
-    text-decoration: none; /* DEFAULT- no underline */
-    color: navajowhite; /* DEFAULT color */
-    margin: 0 10px; /* Add margin to separate links */
-}
-
-.navbar a:hover {
-    text-decoration: underline; /* State[hover]ColorToggler */
-}
-
 /* update index styling --------------------*/
 
 h1 {

@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Piya- Projects Page</title>
     <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/nav.css">
+    <link rel="stylesheet" href="~/css/projects.css">
+    <script src="~/scripts/projects.js"></script>
 </head>
 <body>
     <div class="navbar">
@@ -17,6 +20,38 @@
         <a href="/contact">Contact</a>  @*Link to ContactPage; labled "Contact"*@
         <span> | </span>                @*spacer*@
     </div>
-    <h1>My Projects</h1>
+    <div class="content">
+        <h1 class="center">My Projects</h1>
+        <div class="projects">
+            @* Project Instance *@
+            <div class="project">
+                <img class="project-img" src="~/images/minesweeper.jpg" alt="project one overview">
+                <div>
+                    <h3>Project 1</h3>
+                    <p>
+Minesweeper                    </p>
+                </div>
+            </div>
+            @* Project Instance *@
+            <div class="project">
+                <img class="project-img" src="~/images/3D_Cadet.jpg" alt="project two overview">
+                <div>
+                    <h3>Project 2</h3>
+                    <p>
+3D Cadet                    </p>
+                </div>
+            </div>
+            @* Project Instance *@
+            <div class="project">
+                <img class="project-img" src="~/images/spyfox.jpg" alt="project three overview">
+                <div>
+                    <h3>Project 3</h3>
+                    <p>
+SpyFox                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
 </body>
 </html>

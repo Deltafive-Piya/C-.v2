@@ -305,11 +305,199 @@ Some sections may not make sense in Github as they are not conditionally colored
 
 
 ### <span style= "color: yellow;">Impliment- Projects Page: <=3 projects, foreach{ title, image, small description }</span>
+#### <span style= "color: yellow;">Impliment- Refactor CSS</span>
 
+- <span style= "color: white;">Within Projects.cshtml- Retrieve the images within Images Folder within wwwroot Folder:</span>
+- <span style= "color: white;">refactored css- link:css the new projects.css </span>
+    1) projects.cshtml:
+
+            @* Projects.cshtml *@
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE-edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Piya- Projects Page</title>
+                <link rel="stylesheet" href="~/css/style.css">
+                <link rel="stylesheet" href="~/css/nav.css">
+                <link rel="stylesheet" href="~/css/projects.css">
+            </head>
+            <body>
+                <div class="navbar">
+                    <span> | </span> 
+                    <a href="/">Home</a>            @*Link to RootPage; labled "Home"*@
+                    <span> | </span>                @*spacer*@
+                    <a href="/projects">Projects</a>@*Link to Projects; labled "Projects"*@
+                    <span> | </span>                @*spacer*@
+                    <a href="/contact">Contact</a>  @*Link to ContactPage; labled "Contact"*@
+                    <span> | </span>                @*spacer*@
+                </div>
+                <div class="content">
+                    <h1 class="center">My Projects</h1>
+                    <div class="projects">
+                        @* Project Instance *@
+                        <div class="project">
+                            <img class="project-img" src="~/images/minesweeper.jpg" alt="project one overview">
+                            <div>
+                                <h3>Project 1</h3>
+                                <p>
+            Minesweeper                    </p>
+                            </div>
+                        </div>
+                        @* Project Instance *@
+                        <div class="project">
+                            <img class="project-img" src="~/images/3D_Cadet.jpg" alt="project two overview">
+                            <div>
+                                <h3>Project 2</h3>
+                                <p>
+            3D Cadet                    </p>
+                            </div>
+                        </div>
+                        @* Project Instance *@
+                        <div class="project">
+                            <img class="project-img" src="~/images/spyfox.jpg" alt="project three overview">
+                            <div>
+                                <h3>Project 3</h3>
+                                <p>
+            SpyFox                    </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </body>
+            </html>
+
+    2) projects.css:
+
+            /* Projects.css */
+            /* Projects container */
+            .projects {
+                max-width: 80%;
+                margin: 0 auto;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                margin-top: 20px;
+            }
+
+            /* Project Instance */
+            .project {
+
+                margin: 10px;
+                text-align: center;
+                background-color: navajowhite;
+                border-bottom: solid 5px #333;
+                border-radius: 4px;
+                padding: 10px;
+            }
+
+            /* Project img */
+            .project-img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 4px;
+            }
 ### <span style= "color: yellow;">Impliment- Contact Page: form ( requesting user's name, email, message)</span>
+- <span style= "color: white;">Within Contact.cshtml- Buil;d a form</span>
+- <span style= "color: white;">refactored css- link:css the new contact.css </span>
+
+    1) Contact.cshtml:
+
+            @* Contact.cshtml *@
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE-edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Piya- Contact Me Page</title>
+                <link rel="stylesheet" href="~/css/style.css">
+                <link rel="stylesheet" href="~/css/nav.css">
+                <link rel="stylesheet" href="~/css/contact.css">
+            </head>
+            <body>
+                <div class="navbar">
+                    <span> | </span> 
+                    <a href="/">Home</a>            @*Link to RootPage; labled "Home"*@
+                    <span> | </span>                @*spacer*@
+                    <a href="/projects">Projects</a>@*Link to Projects; labled "Projects"*@
+                    <span> | </span>                @*spacer*@
+                    <a href="/contact">Contact</a>  @*Link to ContactPage; labled "Contact"*@
+                    <span> | </span>                @*spacer*@
+                </div>
+                <h1 class="center">Contact Me</h1>
+                <form class="form" action="#">
+                    <div class="group">
+                        <label for="Name">Name</label>
+                        <input type="text">
+                    </div>
+                    <div class="group">
+                        <label for="Name">Email</label>
+                        <input type="text">
+                    </div>
+                    <div class="group">
+                        <label for="Name">Description</label>
+                        <input type="text">
+                    </div>
+                    <input type="submit" value="Send" class="submit">
+                </form>
+            </body>
+            </html>
+
+    2) contact.css:
+
+    /* contact.css */
+
+        /* Contact form*/
+        .form {
+            max-width: 25%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc; 
+            border-radius: 4px;
+        }
+
+        /* Form group */
+        .group {
+            margin-bottom: 20px;
+        }
+
+        .group label {
+            display: block; /* Display labels as blocks for proper spacing */
+            font-weight: bold;
+        }
+
+        .group input[type="text"] {
+            width: 98%;
+            padding: 10px;
+            border: 1px solid navajowhite;
+            border-radius: 4px;
+        }
+
+        /* Submit button */
+        .submit {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none; /*REMEMBER- Remove the button border */
+            border-radius: 4px;
+        }
+
+        /* Submit hover */
+        .submit:hover {
+            background-color: #555;
+        }
+
+
 
 ### <span style= "color: yellow;">Bonus: Add some JavaScript for a more interactive user experience</span>
+- On Hover I want to expose the project images from their filter
 
+    1) projects.css:
 
 
 

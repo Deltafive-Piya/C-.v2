@@ -1,0 +1,27 @@
+/* Projects container */
+.projects {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+/* Project Instance */
+.project {
+
+    margin: 10px;
+    text-align: center;
+    background-color: navajowhite;
+    border-bottom: solid 5px #333;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+/* Project img */
+.project-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}

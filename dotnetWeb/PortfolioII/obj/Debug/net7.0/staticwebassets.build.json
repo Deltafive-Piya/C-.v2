@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lZMgylTu6cnBoymjGHg6qwa1+9x3mDWiRJOtOQjG/s0=",
+  "Hash": "jEgPmAfNXR5QGaZqdAoeyJh6JbO2pAYTvdnzT1B+r8s=",
   "Source": "PortfolioI",
   "BasePath": "_content/PortfolioI",
   "Mode": "Default",
@@ -32,6 +32,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\C#\\dotnetWeb\\PortfolioII\\wwwroot\\images\\pfp.jpg",
+      "SourceId": "PortfolioI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\C#\\dotnetWeb\\PortfolioII\\wwwroot\\",
+      "BasePath": "_content/PortfolioI",
+      "RelativePath": "images/pfp.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pfp.jpg"
     }
   ]
 }

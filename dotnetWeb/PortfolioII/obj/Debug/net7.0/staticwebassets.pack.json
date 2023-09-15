@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
+      "Id": "C:\\C#\\dotnetWeb\\PortfolioII\\wwwroot\\images\\pfp.jpg",
+      "PackagePath": "staticwebassets\\images\\pfp.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.PortfolioI.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

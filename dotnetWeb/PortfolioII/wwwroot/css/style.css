@@ -21,7 +21,8 @@
     text-decoration: underline; /* Add underline on hover */
 }
 
-/* Heading styles */
+/* update index h1 styling --------------------*/
+
 h1 {
     font-size: 24px; /* Adjust the font size as needed */
     margin-top: 20px; /* Add space above the heading */
@@ -30,4 +31,42 @@ h1 {
 
 .navbar span {
     box-shadow: 0 0 3px navajowhite; /* Sidewalk solar lights */
+}
+
+.content {
+    text-align: center;
+    margin: 20px; /* Add some margin for spacing */
+}
+
+.center {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Spread the children to left and right */
+    align-items: center; /* Vertically center the children */
+    margin-top: 20px; /* Add space between content and navigation */
+}
+
+/* Left content styles */
+.left {
+    flex: 1; /* Take up equal horizontal space */
+    text-align: left;
+}
+
+/* Right content styles */
+.right {
+    flex: 1; /* Take up equal horizontal space */
+/*background color 2.0*/
+    background: linear-gradient(to bottom, rgb(255, 248, 237), transparent);
+    border-radius: 3px;
+    border-bottom: solid 2px #333;
+}
+
+/* Image jammed down to 100px */
+.size-compress-two-hundred {
+    border-radius: 4px;
+    max-width: 200px; /* Compress to 100px */
+    height: auto; /* AspectRatioKeeper */
 }

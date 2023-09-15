@@ -20,5 +20,4 @@ public class HelloController : Controller
     {
         return View("Contact");
     }
-
 }

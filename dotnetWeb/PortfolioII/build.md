@@ -3,13 +3,13 @@ Some sections may not make sense in Github as they are not conditionally colored
 - The Portfolio II project will contain "About me" (root), "My Projects", and "Contact Me" pages, connected by links.
 - A Navbar will also be implimented
 
-### <span style= "color: yellow;">objective</span>
+## <span style= "color: yellow;">objective</span>
 
 - Rebuild Portfolio I with views instead of returning print statements (Portfolio I)
 
-### <span style= "color: yellow;">steps</span>
+## <span style= "color: yellow;">steps</span>
 
-#### <span style= "color: white;">Update your 3 routes to return Views instead of strings:</span>
+### <span style= "color: white;">Update your 3 routes to return Views instead of strings:</span>
 
 - Make 3 files within Hello Folder within Views Folder:
 
@@ -87,7 +87,7 @@ Some sections may not make sense in Github as they are not conditionally colored
         
         return <span style="color:green">View("Contact")</span>
 
-#### <span style= "color: white;"> CHECK- HelloController should now look like this:</span>
+### <span style= "color: white;"> CHECK- HelloController should now look like this:</span>
 
         using Microsoft.AspNetCore.Mvc;
         namespace PortfolioII.Controllers;
@@ -114,7 +114,7 @@ Some sections may not make sense in Github as they are not conditionally colored
 
         } 
 
-#### <span style= "color: yellow;">Prep CSS styling:</span>
+### <span style= "color: yellow;">Prep CSS styling:</span>
 
 - Apply link:css (within head tag) to new viewFiles :
 
@@ -122,7 +122,7 @@ Some sections may not make sense in Github as they are not conditionally colored
 
 - Create the wwwroot Folder containing the css Folder
 
-#### <span style= "color: yellow;">Add a navbar with links to each page at the top:</span>
+### <span style= "color: yellow;">Add a navbar with links to each page at the top:</span>
 
 - Patch the viewFile with a NavBar:
 
@@ -149,7 +149,7 @@ Some sections may not make sense in Github as they are not conditionally colored
         </body>
         </html>
 
-#### <span style= "color: yellow;">Add CSS styling:</span>
+### <span style= "color: yellow;">Add CSS styling:</span>
 
         /* NAVBAR cssness */
         * {
@@ -186,12 +186,12 @@ Some sections may not make sense in Github as they are not conditionally colored
             box-shadow: 0 0 3px navajowhite; /* Sidewalk solar lights */
         }
 
-#### <span style= "color: yellow;">Impliment- Home Page: picture, name, about me section:</span>
+### <span style= "color: yellow;">Impliment- Home Page: picture, name, about me section:</span>
 <span style= "color: white;">Allow for storage of media; within Images Folder within wwwroot Folder:</span>
 -       mkdir images
     - within that images Folder, populate with media
 
-##### <span style= "color: white;">Index.cshtml & Style.css (Picture, Name About Me Section):</span>
+#### <span style= "color: white;">Index.cshtml & Style.css (Picture, Name About Me Section):</span>
 
 1) <span style= "color: white;">Touch Index.cshtml:</span>
 
@@ -304,11 +304,11 @@ Some sections may not make sense in Github as they are not conditionally colored
         }
 
 
-#### <span style= "color: yellow;">Impliment- Projects Page: <=3 projects, foreach{ title, image, small description }</span>
+### <span style= "color: yellow;">Impliment- Projects Page: <=3 projects, foreach{ title, image, small description }</span>
 
-#### <span style= "color: yellow;">Impliment- Contact Page: form ( requesting user's name, email, message)</span>
+### <span style= "color: yellow;">Impliment- Contact Page: form ( requesting user's name, email, message)</span>
 
-#### <span style= "color: yellow;">Bonus: Add some JavaScript for a more interactive user experience</span>
+### <span style= "color: yellow;">Bonus: Add some JavaScript for a more interactive user experience</span>
 
 
 

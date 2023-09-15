@@ -1,3 +1,4 @@
+Some sections may not make sense in Github as they are not conditionally colored, in comparison to the view within VSCode.
 # <span style= "color: white;">Portfolio II</span>
 - The Portfolio II project will contain "About me" (root), "My Projects", and "Contact Me" pages, connected by links.
 - A Navbar will also be implimented
@@ -76,7 +77,7 @@
         </body>
         </html>
 
-    -   <span style= "color: white;">Patch within HelloController:</span>
+    -   <span style= "color: white;">Touch HelloController:</span>
 
         public <span style="color:red; text-decoration: line-through;">string</span> Contact()
         

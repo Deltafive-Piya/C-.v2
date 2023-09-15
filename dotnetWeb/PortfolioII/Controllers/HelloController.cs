@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-namespace PortfolioI.Controllers;
+namespace PortfolioII.Controllers;
 
 public class HelloController : Controller
 {

@@ -52,3 +52,4 @@ C:\C#\dotnetWeb\PortfolioII\obj\Debug\net7.0\refint\PortfolioI.dll
 C:\C#\dotnetWeb\PortfolioII\obj\Debug\net7.0\PortfolioI.pdb
 C:\C#\dotnetWeb\PortfolioII\obj\Debug\net7.0\PortfolioI.genruntimeconfig.cache
 C:\C#\dotnetWeb\PortfolioII\obj\Debug\net7.0\ref\PortfolioI.dll
+C:\C#\dotnetWeb\PortfolioII\bin\Debug\net7.0\PortfolioI.staticwebassets.runtime.json

@@ -86,7 +86,40 @@
         
         return <span style="color:green">View("Contact")</span>
 
+#### <span style= "color: white;">Prep CSS styling:</span>
+
+- Apply link:css to new viewFiles (within head tag):
+
+        <link rel="stylesheet" href="~/css/style.css">
+
+- Create the wwwroot Folder containing the css Folder
+
 #### <span style= "color: white;">Add a navbar with links to each page at the top:</span>
+
+- Patch the viewFile with a NavBar:
+
+        @* Index.cshtml *@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE-edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Piya About Me template</title>
+            <link rel="stylesheet" href="~/css/style.css">
+        </head>
+        <body>
+            <div class="navbar">
+                <a href="/">Home</a>            @*Link to RootPage; labled "Home"*@
+                <span> | </span>                @*spacer*@
+                <a href="/projects">Projects</a>@*Link to Projects; labled "Projects"*@
+                <span> | </span>                @*spacer*@
+                <a href="/contact">Contact</a>  @*Link to ContactPage; labled "Contact"*@
+                <span> | </span>                @*spacer*@
+            </div>
+            <h1>About Me!</h1>
+        </body>
+        </html>
 
 #### <span style= "color: white;">The Home page should have a picture, name, and about me section:</span>
 

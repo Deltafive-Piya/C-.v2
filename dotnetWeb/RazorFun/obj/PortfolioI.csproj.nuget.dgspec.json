@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\C#\\dotnetWeb\\PortfolioI\\PortfolioI.csproj": {}
+    "C:\\C#\\dotnetWeb\\RazorFun\\PortfolioI.csproj": {}
   },
   "projects": {
-    "C:\\C#\\dotnetWeb\\PortfolioI\\PortfolioI.csproj": {
+    "C:\\C#\\dotnetWeb\\RazorFun\\PortfolioI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\C#\\dotnetWeb\\PortfolioI\\PortfolioI.csproj",
+        "projectUniqueName": "C:\\C#\\dotnetWeb\\RazorFun\\PortfolioI.csproj",
         "projectName": "PortfolioI",
-        "projectPath": "C:\\C#\\dotnetWeb\\PortfolioI\\PortfolioI.csproj",
+        "projectPath": "C:\\C#\\dotnetWeb\\RazorFun\\PortfolioI.csproj",
         "packagesPath": "C:\\Users\\piers\\.nuget\\packages\\",
-        "outputPath": "C:\\C#\\dotnetWeb\\PortfolioI\\obj\\",
+        "outputPath": "C:\\C#\\dotnetWeb\\RazorFun\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\piers\\AppData\\Roaming\\NuGet\\NuGet.Config"

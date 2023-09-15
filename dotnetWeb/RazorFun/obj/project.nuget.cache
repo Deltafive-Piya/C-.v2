@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IkKPSiaNLkFQ6zFfVsV4YSOmbvpXMcSsB2p3XYKsLdeV1bR3hzgF8ilE8Pk1w2tie+quREwuwhb2VXuSDgqvvQ==",
+  "dgSpecHash": "eVag9vK8KlOn+o8+ZBeX5ZejtoX1bmsRhUhpsoPbYtpj9uSna62Su2Q2dCOwp/3ba+Tz7NwextSNEqSenZODvg==",
   "success": true,
-  "projectFilePath": "C:\\C#\\dotnetWeb\\PortfolioI\\PortfolioI.csproj",
+  "projectFilePath": "C:\\C#\\dotnetWeb\\RazorFun\\PortfolioI.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

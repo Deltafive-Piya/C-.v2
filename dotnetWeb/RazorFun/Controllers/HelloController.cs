@@ -1,12 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
-namespace PortfolioI.Controllers;
+namespace RazorFun.Controllers;
 
 public class HelloController : Controller
 {
+    // View Method to display Index View
     [HttpGet ("")]
-    public string Index()
+    public ViewResult Index()
     {
-        return "This is my Piya Index";
+        return View("Index");
     }
 
     [HttpGet ("projects")]

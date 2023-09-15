@@ -18648,11 +18648,6 @@
       "FilePath": "c:\\C#\\dotnetWeb\\RazorFun\\Views\\Hello\\Index.cshtml",
       "TargetPath": "Views\\Hello\\Index.cshtml",
       "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\C#\\dotnetWeb\\RazorFun\\PortfolioI\\Views\\Hello\\Index.cshtml",
-      "TargetPath": "PortfolioI\\Views\\Hello\\Index.cshtml",
-      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.3"

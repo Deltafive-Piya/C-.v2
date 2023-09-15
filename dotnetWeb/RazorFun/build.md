@@ -1,5 +1,6 @@
 # <span style= "color: white;">RazorFun</span>
 (Working off of Portfolio I ...)
+https://github.com/Deltafive-Piya/C-.v2/tree/main/dotnetWeb/PortfolioI
 
 - Render a View using Razor in a simple web application.
 - Apply C# logic to render data on our View.
@@ -15,12 +16,24 @@
 
 ### <span style= "color: white;">steps</span>
 
-#### <span style= "color: white;">project create:</span>
+#### <span style= "color: white;">Hello View create:</span>
 
-    cd dotnetWeb (directory for all dotnetWeb projects)
-    dotnet new web --no-https -o PortfolioI
-    cd PortfolioI
-    code .
+- Create a Views folder
+- Within that Views folder, create a folder named after the controller (Hello in this case)
+- With Hello, touch Index.cshtml:
+
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE-edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Piya Index template</title>
+            </head>
+            <body>
+                
+            </body>
+        </html>
 
 #### <span style= "color: white;">Program.cs edit:</span>
 

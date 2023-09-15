@@ -1,4 +1,4 @@
-# <span style= "color: white;">Portfolio</span>
+# <span style= "color: white;">Portfolio II</span>
 - The Portfolio II project will contain "About me" (root), "My Projects", and "Contact Me" pages, connected by links.
 - A Navbar will also be implimented
 
@@ -88,7 +88,7 @@
 
 #### <span style= "color: white;">Prep CSS styling:</span>
 
-- Apply link:css to new viewFiles (within head tag):
+- Apply link:css (within head tag) to new viewFiles :
 
         <link rel="stylesheet" href="~/css/style.css">
 
@@ -121,13 +121,48 @@
         </body>
         </html>
 
+#### <span style= "color: white;">Add CSS styling:</span>
+
+        /* NAVBAR cssness */
+        * {
+            font-family: monospace;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-evenly;
+            background-color: #333; /* Background color of the navbar */
+            color: white; /* Text color for links and separators */
+            padding: 10px; /* Add some padding for better spacing */
+            border-radius: 4px;
+        }
+
+        .navbar a {
+            text-decoration: none; /* Remove underlines from links */
+            color: navajowhite; /* Text color for links */
+            margin: 0 10px; /* Add margin to separate links */
+        }
+
+        .navbar a:hover {
+            text-decoration: underline; /* Add underline on hover */
+        }
+
+        /* Heading styles */
+        h1 {
+            font-size: 24px; /* Adjust the font size as needed */
+            margin-top: 20px; /* Add space above the heading */
+            text-align: center; /* Center the heading text */
+        }
+
+        .navbar span {
+            box-shadow: 0 0 3px navajowhite; /* Sidewalk solar lights */
+        }
+
 #### <span style= "color: white;">The Home page should have a picture, name, and about me section:</span>
 
 #### <span style= "color: white;">The Projects page should have at least 3 projects, each with a title, image, and small description:</span>
 
 #### <span style= "color: white;">The Contact page should have a form requesting the user's name, email, and a message (this form does not need to function):</span>
-
-#### <span style= "color: white;">Add CSS styling:</span>
 
 #### <span style= "color: white;">Bonus: Add some JavaScript for a more interactive user experience:</span>
 

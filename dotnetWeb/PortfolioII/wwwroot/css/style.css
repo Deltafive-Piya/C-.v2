@@ -1,4 +1,3 @@
-/* Navigation bar styles */
 * {
     font-family: monospace;
 }
@@ -9,6 +8,7 @@
     background-color: #333; /* Background color of the navbar */
     color: white; /* Text color for links and separators */
     padding: 10px; /* Add some padding for better spacing */
+    border-radius: 4px;
 }
 
 .navbar a {
@@ -26,4 +26,8 @@ h1 {
     font-size: 24px; /* Adjust the font size as needed */
     margin-top: 20px; /* Add space above the heading */
     text-align: center; /* Center the heading text */
+}
+
+.navbar span {
+    box-shadow: 0 0 3px navajowhite; /* Sidewalk solar lights */
 }

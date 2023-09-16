@@ -79,7 +79,8 @@
             cd css
                 touch style.css
 #### <span style= "color: white;">4. Assign classnames to index.cshtml tags and style</span>
-- style.css:
+- <span style= "color: white;">style.cshtml:</span>
+
     -   make each card div (StartTime & EndTime) within a cards div;
     -   make a remaining div for the RemainingTime
     -   new css classes ("container", "cards", "card", "remaining")
@@ -130,59 +131,59 @@
             </body>
             </html>
 
-<span style= "color: white;">style.css</span>
+- <span style= "color: white;">style.css</span>
 
-    /* style.css */
-    * {
-        margin: 0;
-        padding: 0;
-        font-family: monospace;
-    }
+        /* style.css */
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: monospace;
+        }
 
-    .container {
-        
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        background-color: #ffffff;
-        flex-direction: column;
-    }
+        .container {
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffffff;
+            flex-direction: column;
+        }
 
-    .cards {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: #ffffff;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    }
+        .cards {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
 
-    .card {
-        margin: 5px 5px;
-        text-align: center;
-        padding: 20px;
-        background-color: navajowhite;
-        border-radius: 5px;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0);
-    }
+        .card {
+            margin: 5px 5px;
+            text-align: center;
+            padding: 20px;
+            background-color: navajowhite;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0);
+        }
 
-    .remaining {
-        text-align: center;
-        border-radius: 2px;
-        margin:10px 10px;
-        background-color: rgb(0, 0, 0);
-        color: rgb(255, 255, 255);
-    }
+        .remaining {
+            text-align: center;
+            border-radius: 2px;
+            margin:10px 10px;
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+        }
 
-    /* Style headings in cards */
-    h2 {
-        font-size: 18px;
-        margin-bottom: 5px;
-    }
+        /* Style headings in cards */
+        h2 {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
 
-    h3 {
-        font-size: 16px;
-        margin: 0;
-    }
+        h3 {
+            font-size: 16px;
+            margin: 0;
+        }

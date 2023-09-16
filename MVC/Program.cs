@@ -9,13 +9,12 @@ builder.Services.AddControllersWithViews();
 //    at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapControllerRoute(IEndpointRouteBuilder endpoints, String name, String pattern, Object defaults, Object constraints, Object dataTokens)
 //    at Program.<Main>$(String[] args) in C:\C#\MVC\Program.cs:line 7
 
-
-
-
 var app = builder.Build();
+app.UseStaticFiles();
+app.UseRouting();
+app.UseAuthorization();
 
 // app.MapGet("/", () => "Hello World!"); //REMOVED- Boilerplate map
-
 // New Map (via controller-method) below:
 app.MapControllerRoute(
     name: "default",

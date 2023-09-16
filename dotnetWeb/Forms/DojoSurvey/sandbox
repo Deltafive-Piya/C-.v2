@@ -1,0 +1,21 @@
+<div class="form-container">
+        <form action="process" method="post">    
+            <div class="form-labels">
+                <label for="Name">Your Name:</label>
+                <label for="DojoLocation">DojoLocation</label>
+                <label for="FavoriteLang">Favorite Language</label>
+                <label for="Comments">Comments</label>
+            </div>  
+            <div class="form-inputs">
+                <input type="text" name="Name"/>
+                <input type="number" name="DojoLocation"/>
+                <input type="text" name="FavoriteLang"/>
+            </div>  
+            <div>
+                <input type="text" name="Comments"/>   
+            </div>
+            <div>
+                <input type="submit" value="Submit"/>
+            </div>
+        </form>
+    </div>

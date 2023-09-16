@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piya- DojoSurvey Page</title>
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+<body>
+    <div class="form-container">
+        <form action="/hello/process" method="post">
+            <div class="form-row">
+                <label for="Name">Your Name:</label>
+                <input type="text" name="Name"/>
+            </div>
+            <div class="form-row">
+                <label for="DojoLocation">Dojo Location:</label>
+                <input type="number" name="DojoLocation"/>
+            </div>
+            <div class="form-row">
+                <label for="FavoriteLang">Favorite Language:</label>
+                <input type="text" name="FavoriteLang"/>
+            </div>
+            <div class="form-row">
+                <label for="Comments">Comments:</label>
+                <input type="text" name="Comments"/>
+            </div>
+            <div class="form-row">
+                <input type="submit" value="Submit"/>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+C:\C#\dotnetWeb\Forms\obj\Debug\net7.0\Forms.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\dotnetWeb\Forms\obj\Debug\net7.0\Forms.AssemblyInfoInputs.cache
+C:\C#\dotnetWeb\Forms\obj\Debug\net7.0\Forms.AssemblyInfo.cs
+C:\C#\dotnetWeb\Forms\obj\Debug\net7.0\Forms.csproj.CoreCompileInputs.cache
+C:\C#\dotnetWeb\Forms\obj\Debug\net7.0\Forms.MvcApplicationPartsAssemblyInfo.cache
+C:\C#\dotnetWeb\Forms\obj\Debug\net7.0\Forms.RazorAssemblyInfo.cache
+C:\C#\dotnetWeb\Forms\obj\Debug\net7.0\Forms.RazorAssemblyInfo.cs

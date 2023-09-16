@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\C#\\MVC\\MVC.csproj": {}
+    "C:\\C#\\mvc\\MVC.csproj": {}
   },
   "projects": {
-    "C:\\C#\\MVC\\MVC.csproj": {
+    "C:\\C#\\mvc\\MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\C#\\MVC\\MVC.csproj",
+        "projectUniqueName": "C:\\C#\\mvc\\MVC.csproj",
         "projectName": "MVC",
-        "projectPath": "C:\\C#\\MVC\\MVC.csproj",
+        "projectPath": "C:\\C#\\mvc\\MVC.csproj",
         "packagesPath": "C:\\Users\\piers\\.nuget\\packages\\",
-        "outputPath": "C:\\C#\\MVC\\obj\\",
+        "outputPath": "C:\\C#\\mvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\piers\\AppData\\Roaming\\NuGet\\NuGet.Config"

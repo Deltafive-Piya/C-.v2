@@ -23,3 +23,6 @@ C:\C#\MVC\obj\Debug\net7.0\refint\MVC.dll
 C:\C#\MVC\obj\Debug\net7.0\MVC.pdb
 C:\C#\MVC\obj\Debug\net7.0\MVC.genruntimeconfig.cache
 C:\C#\MVC\obj\Debug\net7.0\ref\MVC.dll
+C:\C#\mvc\obj\Debug\net7.0\MVC.RazorAssemblyInfo.cache
+C:\C#\mvc\obj\Debug\net7.0\MVC.RazorAssemblyInfo.cs
+C:\C#\mvc\bin\Debug\net7.0\MVC.staticwebassets.runtime.json

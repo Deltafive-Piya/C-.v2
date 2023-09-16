@@ -1,0 +1,29 @@
+* {
+    font-family: monospace;
+    outline: solid 1px red;
+}
+
+.form-container {
+    margin: 0 auto;
+    min-height: 200px;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.form-row > label {
+    flex: 1; /* Labels take up the left half */
+    text-align: left;
+    padding-right: 10px;
+}
+
+.form-row > input {
+    flex: 1; /* Inputs take up the right half */
+    width: 10px;
+}

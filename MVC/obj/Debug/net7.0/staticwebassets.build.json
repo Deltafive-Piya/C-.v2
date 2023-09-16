@@ -1,11 +1,37 @@
 {
   "Version": 1,
-  "Hash": "r6RW0BjYAOLu/nvxZSSpfRoQRpxtoPQ6w9xKVsHe7r0=",
+  "Hash": "5YeheUUjIplYc/uKHKM99KIgYaHnxUYnRxCmWk0tFjA=",
   "Source": "MVC",
   "BasePath": "_content/MVC",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "MVC\\wwwroot",
+      "Source": "MVC",
+      "ContentRoot": "C:\\C#\\mvc\\wwwroot\\",
+      "BasePath": "_content/MVC",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\C#\\mvc\\wwwroot\\images\\favorited.png",
+      "SourceId": "MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\C#\\mvc\\wwwroot\\",
+      "BasePath": "_content/MVC",
+      "RelativePath": "images/favorited.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\favorited.png"
+    }
+  ]
 }

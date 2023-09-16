@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piya- FirstView</title>
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+<body>
+    <h1>Now serving: Virst View</h1>
+    @{
+        List<string> names = new(){"Bob", "Alice", "Alex Miller"};
+            foreach (string n in names)
+            {
+                if (n == "Alex Miller"){
+                    <p>@n</p>
+                    <img src="~/images/favorited.png" alt="the best">
+                } else {
+                    <p>@n</p>
+                    <img src="~/images/aiighted.png" alt="aiight individual">
+                }
+                
+            }
+    }
+</body>
+</html>

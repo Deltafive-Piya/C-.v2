@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b6SH8BPWMsEIfEZlupduS11xyhN9y5tT0BpB6pxozQ5eBpUGN5gUU0sGclwnMuDN8JK1sMtmn85YTcX3+WOd6Q==",
+  "dgSpecHash": "5wuq91JOXRyKLkTdZ1c4Xd/ESJKbfKZ9JWHNzSqH0qC7bpTkh6xDFpQrh3fvjrAeduyucsU+RdvqSIs4Qx/4UQ==",
   "success": true,
-  "projectFilePath": "C:\\C#\\MVC\\MVC.csproj",
+  "projectFilePath": "C:\\C#\\mvc\\MVC.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

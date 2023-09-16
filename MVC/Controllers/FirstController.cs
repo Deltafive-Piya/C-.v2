@@ -27,4 +27,11 @@ public class FirstController : Controller //The main scope of the the file
     {
         return $"{name}'s ID: {id}";
     }
+
+    //View Listener
+    [HttpGet("view")]
+    public ViewResult FirstView()
+    {
+        return View("FirstView");
+    }
 }

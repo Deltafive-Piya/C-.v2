@@ -1,4 +1,4 @@
-#pragma warning disable CS8618
+#pragma warning disable CS8618              //DisableWarning- null values
 using System.ComponentModel.DataAnnotations;
 
 namespace DojoSurveyWithValidations;
@@ -18,5 +18,4 @@ public class User
     // OBJECTIVE 3) Comment isn't required, but if included, should be more than 20 characters.
     [MaxLength(20)]
     public string Comment {get;set;}
-
 }

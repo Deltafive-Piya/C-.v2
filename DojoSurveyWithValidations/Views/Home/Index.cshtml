@@ -3,33 +3,31 @@
 }
 @model User
 <div class="text-center">
-    <form action="/process" method="post">
-        <div class="mb-3">
+    <h2>Piya Dojo Form</h2>
+    <form asp-action="process" method="post">
+        <div>
             <label asp-for="Name"></label>
-            <input asp-for="Name" class="form-control">
+            <input asp-for="Name">
+            <span asp-validation-for="Name"></span>
         </div>
-        <div class="mb-3">
+        <div>
             <label asp-for="Location"></label>
-            <select asp-for="Location" class="form-control">
-                <option value="Ely">Ely</option>
-                <option value="Cambridge">Cambridge</option>
-                <option value="London">London</option>
-                <option value="Ipswich">Ipswich</option>
-            </select>
+            <input asp-for="Location">
+            <span asp-validation-for="Location"></span>
         </div>
-        <div class="mb-3">
+        <div>
             <label asp-for="Language"></label>
-            <select asp-for="Language" class="form-control">
-                <option value="TSQL">TSQL</option>
-                <option value="Scala">Scala</option>
-                <option value="Cobol">Cobol</option>
-                <option value="PLSQL">PLSQL</option>
-            </select>
+            <input asp-for="Language">
+            <span asp-validation-for="Language"></span>
         </div>
-        <div class="mb-3">
+        <div>
             <label asp-for="Comment"></label>
-            <textarea asp-for="Comment" class="form-control"></textarea>
+            <input asp-for="Comment">
+            <span asp-validation-for="Comment"></span>
         </div>
-        <input type="submit" value="Submit" class="btn btn-secondary">
+        <div>
+            <input type="submit" value="Submit">
+        </div>
     </form>
 </div>
+@* Missing our l;ogic within the controller *@

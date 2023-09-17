@@ -3,9 +3,9 @@ dotnet new mvc --no-https -o DojoSurveyWithValidations
 cd DojoSurveyWithValidations
 code .
 
-### <span style= "color: white;">Objectives</span>
+### <span style= "color: yellow;">Objectives</span>
 
--   1) Name, Location, and Favorite Language should all be required.
+-   1A,B,C) Name, Location, and Favorite Language should all be required.
 
 -   2) Name should be no less than 2 characters.
 
@@ -17,15 +17,166 @@ code .
 
 -   6) Use ViewModel to display results.
 
-### <span style= "color: white;">Pull files from DojoSurveyWithModels</span>
+### <span style= "color: yellow;">Pull files from DojoSurveyWithModels</span>
 
-#### Model-User.cs
-#### Views-Home-Index.cshtml
-#### wwwroot-css-site.css
-#### Controllers-HomeController
-#### Views-Home-Privacy.cshtml -> Result.cshtml
+#### Model-<span style= "color: white;">User.cs</span>
+#### Views-Home-<span style= "color: white;">Index.cshtml</span>
+#### wwwroot-css-<span style= "color: white;">site.css</span>
+#### Controllers-<span style= "color: white;">HomeController.cs</span>
+#### Views-Home-<span style= "color: white;">Privacy.cshtml -> Result.cshtml</span>
 
-### <span style= "color: white;">asdasd</span>
+### <span style= "color: yellow;">Validations</span>
+
+<span style= "color: white;">User.cs:</span>
+
+    #pragma warning disable CS8618              //DisableWarning- null values
+    using System.ComponentModel.DataAnnotations;
+
+    namespace DojoSurveyWithValidations;
+    public class User
+    {
+        // OBJECTIVE 1A) Name, Location, and Favorite Language should all be required.
+        [Required]
+        // OBJECTIVE 2) Name should be no less than 2 characters.
+        [MinLength(2)]
+        public string Name {get;set;}
+        // OBJECTIVE 1B) Name, Location, and Favorite Language should all be required.
+        [Required]
+        public string Location {get;set;}
+        // OBJECTIVE 1C) Name, Location, and Favorite Language should all be required.
+        [Required]
+        public string Language {get;set;}
+        // OBJECTIVE 3) Comment isn't required, but if included, should be more than 20 characters.
+        [MaxLength(20)]
+        public string Comment {get;set;}
+    }
+
+### <span style= "color: yellow;">Form Restructure 1/3 (asp-for)</span>
+
+<span style= "color: white;">Index.cshtml:</span>
+
+    @{
+        ViewData["Title"] = "Ninja Form";
+    }
+    @model User
+    <div class="text-center">
+        <h2>Piya Dojo Form</h2>
+        <form action="register" method="post">
+            <div>
+                <label asp-for="Name"></label>
+                <input asp-for="Name">
+            </div>
+            <div>
+                <label asp-for="Location"></label>
+                <input asp-for="Location">
+            </div>
+            <div>
+                <label asp-for="Language"></label>
+                <input asp-for="Language">
+            </div>
+            <div>
+                <label asp-for="Comment"></label>
+                <input asp-for="Comment">
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+
+    @* Missing our logic within the controller *@
+    @* Missing our asp-for for validations *@
+
+### <span style= "color: yellow;">Form Restructure 2/3 (asp-for & asp-validation-for)</span>
+
+<span style= "color: white;">Index.cshtml:</span>
+
+    @{
+        ViewData["Title"] = "Ninja Form";
+    }
+    @model User
+    <div class="text-center">
+        <h2>Piya Dojo Form</h2>
+        <form action="register" method="post">
+            <div>
+                <label asp-for="Name"></label>
+                <input asp-for="Name">
+                <span asp-validation-for="Name"></span>
+            </div>
+            <div>
+                <label asp-for="Location"></label>
+                <input asp-for="Location">
+                <span asp-validation-for="Location"></span>
+            </div>
+            <div>
+                <label asp-for="Language"></label>
+                <input asp-for="Language">
+                <span asp-validation-for="Language"></span>
+            </div>
+            <div>
+                <label asp-for="Comment"></label>
+                <input asp-for="Comment">
+                <span asp-validation-for="Comment"></span>
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+
+    @* Missing our logic within the controller *@
+
+### <span style= "color: yellow;">Form Restructure 3/3 (Controller Logic)</span>
+
+<span style= "color: white;">HomeController.cs:</span>
+
+    using System.Diagnostics;
+    using Microsoft.AspNetCore.Mvc;
+    using DojoSurveyWithValidations.Models; // Assuming you have the appropriate namespace
+
+    namespace DojoSurveyWithValidations.Controllers
+    {
+        public class HomeController : Controller
+        {
+            private readonly ILogger<HomeController> _logger;
+
+            public HomeController(ILogger<HomeController> logger)
+            {
+                _logger = logger;
+            }
+
+            [HttpGet("/")]
+            public ViewResult Index()
+            {
+                return View("Index");
+            }
+
+            [HttpPost("process")]
+            public IActionResult Process(User newUser)
+            {
+                if (ModelState.IsValid)
+                {
+                    return RedirectToAction("Display", newUser);
+                }
+                else
+                {
+                    return View("Index");
+                }
+            }
+
+            [HttpGet("Display")]
+            public IActionResult Display(User newUser)
+            {
+                return View(newUser);
+            }
+
+            [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+            public IActionResult Error()
+            {
+                return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            }
+        }
+    }
 
 </br>
 </br>
@@ -48,7 +199,7 @@ code .
 
 
 ### <span style= "color: white;">notes:</span>
-#### Data Anootatations and their purpose
+#### <span style= "color: white;">Validation Data Anootatations and their purpose</span>
 - Required
     - Validates whether field !null
 - Regular Expression
@@ -65,3 +216,9 @@ code .
     - Validates two fields are ==
 - DataType()
     - Restricts values to a specified DataType
+
+#### <span style= "color: white;">asp-for</span>
+- Hooks up to a particular Model and effeciently builds the form
+
+#### <span style= "color: white;">asp-validation-for</span>
+- Error Message Implimentors (within span tags)

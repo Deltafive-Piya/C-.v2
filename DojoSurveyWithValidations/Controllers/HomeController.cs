@@ -1,43 +1,47 @@
-﻿//ln 18
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using DojoSurveyWithValidations.Models;
-namespace DojoSurveyWithValidations.Controllers;
+using DojoSurveyWithValidations.Models; // Assuming you have the appropriate namespace
 
-public class HomeController : Controller
+namespace DojoSurveyWithValidations.Controllers
 {
-    static User NewUser; //1. make this so we can pass it in the form via action="process"
-
-    private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
+    public class HomeController : Controller
     {
-        _logger = logger;
-    }
-    // Start getting and postin here
-    [HttpGet("")]
-    public IActionResult Index()
-    {
-        return View();
-    }
+        private readonly ILogger<HomeController> _logger;
 
-    [HttpPost("process")]
-    public IActionResult Process(User user) //2. pass the user here
-    {
-        NewUser = user; //3. populate new user with user here
-        return RedirectToAction("Result");
-    }
+        public HomeController(ILogger<HomeController> logger)
+        {
+            _logger = logger;
+        }
 
-    [HttpGet("result")]
-    public IActionResult Result()
-    {
-        return View(NewUser); //4. Return the NewUser ; 
-                                //Now our result is going to recieve a view model...
-    }
+        [HttpGet("/")]
+        public ViewResult Index()
+        {
+            return View("Index");
+        }
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        [HttpPost("process")]
+        public IActionResult Process(User newUser)
+        {
+            if (ModelState.IsValid)
+            {
+                return RedirectToAction("Display", newUser);
+            }
+            else
+            {
+                return View("Index");
+            }
+        }
+
+        [HttpGet("Display")]
+        public IActionResult Display(User newUser)
+        {
+            return View(newUser);
+        }
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
     }
 }

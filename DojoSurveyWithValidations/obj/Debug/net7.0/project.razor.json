@@ -18650,11 +18650,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\C#\\DojoSurveyWithValidations\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\C#\\DojoSurveyWithValidations\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -18667,6 +18662,11 @@
     {
       "FilePath": "c:\\C#\\DojoSurveyWithValidations\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\C#\\DojoSurveyWithValidations\\Views\\Home\\Result.cshtml",
+      "TargetPath": "Views\\Home\\Result.cshtml",
       "FileKind": "mvc"
     },
     {

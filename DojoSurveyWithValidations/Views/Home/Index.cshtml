@@ -1,8 +1,35 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Ninja Form";
 }
-
+@model User
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <form action="/process" method="post">
+        <div class="mb-3">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label asp-for="Location"></label>
+            <select asp-for="Location" class="form-control">
+                <option value="Ely">Ely</option>
+                <option value="Cambridge">Cambridge</option>
+                <option value="London">London</option>
+                <option value="Ipswich">Ipswich</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Language"></label>
+            <select asp-for="Language" class="form-control">
+                <option value="TSQL">TSQL</option>
+                <option value="Scala">Scala</option>
+                <option value="Cobol">Cobol</option>
+                <option value="PLSQL">PLSQL</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Comment"></label>
+            <textarea asp-for="Comment" class="form-control"></textarea>
+        </div>
+        <input type="submit" value="Submit" class="btn btn-secondary">
+    </form>
 </div>

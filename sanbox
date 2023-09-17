@@ -1,0 +1,2 @@
+<!-- Thrown into Model to disable warning for "non-nullable property must contain a non-null value when exiting constructor"  -->
+#pragma warning disable CS8618

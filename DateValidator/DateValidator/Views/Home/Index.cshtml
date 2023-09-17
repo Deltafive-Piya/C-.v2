@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model User
+<div class="text-center">
+    <h1 class="text-center">Welcome to Piya Form</h1>
+    <form asp-action="process" method="post">
+        <div class="mb-3">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-control">
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Birthday"></label>
+            <input asp-for="Birthday" class="form-control">
+            <span asp-validation-for="Birthday" class="text-danger"></span>
+        </div>
+        <input type="submit" value="Submit" class="btn btn-secondary">
+    </form>
+</div>

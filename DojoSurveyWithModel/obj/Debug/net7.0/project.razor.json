@@ -18650,13 +18650,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\C#\\DojoSurveyWithModel\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\C#\\DojoSurveyWithModel\\Views\\Home\\Result.cshtml",
+      "TargetPath": "Views\\Home\\Result.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\C#\\DojoSurveyWithModel\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\C#\\DojoSurveyWithModel\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {

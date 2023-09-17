@@ -11,8 +11,3 @@
 4) Implement logout feature
 5) <span style= "text-decoration: line-through;"> Bonus: Add security to prevent a user from accessing the dashboard without inputting a name
 6)  <span style= "text-decoration: line-through;">Challenge: Rework logic to only use one route for mathematical operations</span>
-
-### <span style= "color: yellow;">Init</span>
-    dotnet new mvc --no-https -o SessionWorkshop
-    cd SessionWorkshop
-    code .

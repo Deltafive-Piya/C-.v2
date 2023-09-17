@@ -1,0 +1,39 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div style="font-family: monospace;"class="text-center">
+    
+    <h1 style="flex: "class="display-4">Welcome @Context.Session.GetString("Name"),</h1>
+    <form action="Logout" method="post">
+        <input type="submit" value="Logout"/>
+    </form>
+    <hr>
+    <p>@Context.Session.GetInt32("Number")</p>
+    <div >
+        <div>
+            <form action="/Submit" method="post">
+                <input type="hidden" name="submission" value="1"/>
+                <input style="background-color: yellow;" type="submit" value="+1"/>
+            </form>
+            <form action="/Submit" method="post">
+                <input type="hidden" name="submission"  value="-1"/>
+                <input style="background-color: aqua;" type="submit" value="-1"/>
+            </form>
+        </div>
+        <div>
+            <form action="/Submit" method="post">
+                <input type="hidden"  name="submission" value="x2"/>
+                <input style="background-color: pink;" type="submit" value="x2"/>
+            </form>
+            <form action="/Submit" method="post">
+            @{
+                Random rand = new Random();
+                int randVal = rand.Next(1,11);
+            }
+                <input type="hidden" name="submission"  value="@randVal"/>
+                <input style="background-color: green;" type="submit" value="Random"/>
+            </form>
+        </div>
+    </div>
+</div>

@@ -22,10 +22,12 @@ namespace DojoSurveyWithValidations.Controllers
         [HttpPost("process")]
         public IActionResult Process(User newUser)
         {
+        // OBJECTIVE 5) 5) If the submission is successful, render the results page.
             if (ModelState.IsValid)
             {
                 return RedirectToAction("Display", newUser);
             }
+        // OBJECTIVE 4) If the submission is invalid, render errors.
             else
             {
                 return View("Index");

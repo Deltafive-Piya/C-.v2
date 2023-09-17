@@ -1,6 +1,6 @@
 #pragma warning disable CS8618              //DisableWarning- null values
 using System.ComponentModel.DataAnnotations;
-
+// OBJECTIVE 6) Use ViewModel to display results.
 namespace DojoSurveyWithValidations;
 public class User
 {
@@ -16,6 +16,6 @@ public class User
     [Required]
     public string Language {get;set;}
     // OBJECTIVE 3) Comment isn't required, but if included, should be more than 20 characters.
-    [MaxLength(20)]
-    public string Comment {get;set;}
+    [StringLength(20)]
+    public string? Comment {get;set;} // REMEMBER- ? to allow for emptyValue
 }

@@ -47,9 +47,10 @@ code .
         [Required]
         public string Language {get;set;}
         // OBJECTIVE 3) Comment isn't required, but if included, should be more than 20 characters.
-        [MaxLength(20)]
-        public string Comment {get;set;}
+        [StringLength(20)]
+        public string? Comment {get;set;} // REMEMBER- ? to allow for emptyValue
     }
+
 
 ### <span style= "color: yellow;">Form Restructure 1/3 (asp-for)</span>
 
@@ -178,27 +179,24 @@ code .
         }
     }
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
+### <span style= "color: yellow;">Show Results</span>
+
+<span style= "color: white;">Display.cshtml:</span>
+
+    @* Removed all prior boilerplate code *@
+    @model User 
+    <h2>Submitted Info</h2>
+    <h3>Name: @Model.Name</h3>
+    <h3>Location: @Model.Location</h3>
+    <h3>Language: @Model.Language</h3>
+    <h3>Comment: @Model.Comment</h3>
+    <a href="/" class="btn btn-danger">Go Back</a>
+
+
 </br>
 </br>
 
-
-### <span style= "color: white;">notes:</span>
+### <span style= "color: yellow;">notes:</span>
 #### <span style= "color: white;">Validation Data Anootatations and their purpose</span>
 - Required
     - Validates whether field !null

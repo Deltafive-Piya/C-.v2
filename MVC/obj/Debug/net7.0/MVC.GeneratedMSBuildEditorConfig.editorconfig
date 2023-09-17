@@ -9,17 +9,17 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MVC
 build_property.RootNamespace = MVC
-build_property.ProjectDir = C:\C#\mvc\
+build_property.ProjectDir = c:\C#\MVC\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\C#\mvc
+build_property.MSBuildProjectDirectory = c:\C#\MVC
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/C\#/mvc/Views/First/FirstView.cshtml]
+[c:/C\#/MVC/Views/First/FirstView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlyc3RcRmlyc3RWaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/C\#/mvc/Views/First/SecondView.cshtml]
+[c:/C\#/MVC/Views/First/SecondView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlyc3RcU2Vjb25kVmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

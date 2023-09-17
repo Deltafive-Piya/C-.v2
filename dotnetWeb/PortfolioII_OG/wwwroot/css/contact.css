@@ -1,0 +1,41 @@
+/* Contact form*/
+.form {
+    max-width: 25%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+}
+
+/* Form group */
+.group {
+    margin-bottom: 20px;
+}
+
+.group label {
+    display: block; /* Display labels as blocks for proper spacing */
+    font-weight: bold;
+}
+
+.group input[type="text"] {
+    width: 98%;
+    padding: 10px;
+    border: 1px solid navajowhite;
+    border-radius: 4px;
+}
+
+/* Submit button */
+.submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none; /*REMEMBER- Remove the button border */
+    border-radius: 4px;
+}
+
+/* Submit hover */
+.submit:hover {
+    background-color: #555;
+}

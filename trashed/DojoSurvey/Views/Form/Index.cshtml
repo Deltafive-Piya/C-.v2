@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Survey</title>
+</head>
+<body>
+    <form method="post" action="/Process">
+        <div>
+            <label for="Name">Your Name:</label>
+            <input type="text" name="Name" id="Name" value="@Model.Name" />
+        </div>
+        <div>
+            <label for="DojoLocation">Dojo Location:</label>
+            <input type="text" name="DojoLocation" id="DojoLocation" value="@Model.DojoLocation" />
+        </div>
+        <div>
+            <label for="FavoriteLanguage">Favorite Language:</label>
+            <input type="text" name="FavoriteLanguage" id="FavoriteLanguage" value="@Model.FavoriteLanguage" />
+        </div>
+        <div>
+            <label for="Comment">Comment:</label>
+            <textarea name="Comment" id="Comment">@Model.Comment</textarea>
+        </div>
+        <div>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
+@* Post goes to Controller *@

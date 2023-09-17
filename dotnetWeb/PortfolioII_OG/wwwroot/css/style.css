@@ -1,0 +1,52 @@
+* {
+    font-family: monospace;
+}
+/* update index styling --------------------*/
+
+h1 {
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.navbar span {
+    box-shadow: 0 0 3px navajowhite; /* Sidewalk solar lights */
+}
+
+.content {
+    text-align: center;
+    margin: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 20px;
+}
+
+/* Left content styles */
+.left {
+    flex: 1; /* 1 power */
+    text-align: left;
+}
+
+/* Right content styles */
+.right {
+    flex: 1; /* 1 power */
+/*background color 2.0*/
+    background: linear-gradient(to bottom, rgb(255, 248, 237), transparent);
+    border-radius: 3px;
+    border-bottom: solid 2px #333;
+}
+
+/* Image prettified down to 200px */
+.size-compress-two-hundred {
+    border-radius: 4px;/* Prettify */
+    max-width: 200px; /* Compression- 200px */
+    height: auto; /* AspectRatioKeeper */
+}

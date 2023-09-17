@@ -1,0 +1,36 @@
+@model FormData
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form</h1>
+    
+    <form method="post" action="/Process">
+        <div class="subject-section">
+            <label for="Name">Your Name:</label>
+            <input type="text" name="Name" id="Name" value="@Model.Name" />
+        </div>
+        <div class="subject-section">
+            <label for="DojoLocation">Dojo Location:</label>
+            <input type="text" name="DojoLocation" id="DojoLocation" value="@Model.DojoLocation" />
+        </div>
+        <div class="subject-section">
+            <label for="FavoriteLanguage">Favorite Language:</label>
+            <input type="text" name="FavoriteLanguage" id="FavoriteLanguage" value="@Model.FavoriteLanguage" />
+        </div>
+        <div class="comment-section">
+            <label for="Comment">Comment:</label>
+            <textarea name="Comment" id="Comment">@Model.Comment</textarea>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>

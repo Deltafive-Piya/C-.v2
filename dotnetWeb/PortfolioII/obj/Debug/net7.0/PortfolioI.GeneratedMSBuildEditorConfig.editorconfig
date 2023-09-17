@@ -16,14 +16,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = c:\C#\dotnetWeb\PortfolioII
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/C\#/dotnetWeb/PortfolioII/Views/Hello/Contact.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9cQ29udGFjdC5jc2h0bWw=
+[c:/C\#/dotnetWeb/PortfolioII/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/dotnetWeb/PortfolioII/Views/Hello/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9cSW5kZXguY3NodG1s
+[c:/C\#/dotnetWeb/PortfolioII/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/dotnetWeb/PortfolioII/Views/Hello/Projects.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9cUHJvamVjdHMuY3NodG1s
+[c:/C\#/dotnetWeb/PortfolioII/Views/Home/Projects.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9qZWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/C\#/dotnetWeb/PortfolioII/Views/Home/Results.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXN1bHRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

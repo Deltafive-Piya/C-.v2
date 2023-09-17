@@ -1,23 +1,38 @@
 using Microsoft.AspNetCore.Mvc;
-namespace PortfolioII.Controllers;
 
-public class HelloController : Controller
+namespace DojoSurvey.Controllers
 {
-    [HttpGet ("")]
-    public ViewResult Index()
+    public class HomeController : Controller
     {
-        return View("Index");
-    }
+        // Display the form
+        [HttpGet]
+        [Route("")]
+        public ViewResult Index()
+        {
+            return View();
+        }
 
-    [HttpGet ("projects")]
-    public ViewResult Projects()
-    {
-        return View("Projects");
-    }
+        // Handle the form submission
+        [HttpPost]
+        [Route("process")]
+        public IActionResult Process(string name, string email, string comment)
+        {
+            // Process the form data here (e.g., save to a database, perform calculations, etc.)
+            // Store form data in ViewBag
+            ViewBag.Name = name;
+            ViewBag.Email = email;
+            ViewBag.Comment = string.IsNullOrWhiteSpace(comment) ? "No comment" : comment;
 
-    [HttpGet ("contact")]
-    public ViewResult Contact()
-    {
-        return View("Contact");
+            // Redirect to the results page
+            return RedirectToAction("Results");
+        }
+
+        // Display the results
+        [HttpGet]
+        [Route("results")]
+        public IActionResult Results()
+        {
+            return View();
+        }
     }
 }

@@ -1,0 +1,29 @@
+* {
+    /* outline: 1px solid red; */
+    font-family: monospace;
+    background-color: navajowhite;
+}
+
+.title {
+    text-align: center;
+    text-decoration-color:rgb(23, 95, 83);
+}
+
+.form-container {
+    border: 2px solid rgba(2, 57, 17, 0.901);
+    display:flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.form-kv-pair {
+    display:flex;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+form > input {
+    display:block;
+    margin: 22px auto;
+}

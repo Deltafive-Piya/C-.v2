@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piya- Survey</title>
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+<body>
+    <form method="post" asp-action="Process" asp-controller="Home">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" />
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" />
+        </div>
+        <div>
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+@*Post goes to Controller*@

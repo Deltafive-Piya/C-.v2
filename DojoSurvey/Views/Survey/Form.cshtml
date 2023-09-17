@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/style.css">
+    <title>Form</title>
+</head>
+<body>
+    <h1 class="title">Survey:</h1>
+    <div class="form-container">
+        <form action="submission" method="post">
+            <div class="form-kv-pair">
+                <label for="name">Your Name: </label>
+                <input type="text" name="name"/>
+            </div>
+            <div class="form-kv-pair">
+                <label for="location">Location: </label>
+                <select name="location" id="location">
+                    <option value="Ginowan">Ginowan</option>
+                    <option value="Ely">Ely</option>
+                    <option value="Feltwell">Feltwell</option>
+                    <option value="Yokota">Yokota</option>
+                </select>
+            </div>
+            <div class="form-kv-pair">
+                <label for="language">Favorite Language: </label>
+                <select name="language" id="language">
+                    <option value="SQL">SQL</option>
+                    <option value="Ruby">Ruby</option>
+                    <option value="Rust">Rust</option>
+                    <option value="R">R</option>
+                </select>
+            </div>
+            <div>
+                <label for="comment">Comment (opt): </label>
+            </div>
+            <div>
+                <textarea id="comment" name="comment" rows="10" cols="30"></textarea>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

@@ -10,6 +10,8 @@ C:\C#\DojoSurvey\obj\Debug\net7.0\DojoSurvey.AssemblyInfoInputs.cache
 C:\C#\DojoSurvey\obj\Debug\net7.0\DojoSurvey.AssemblyInfo.cs
 C:\C#\DojoSurvey\obj\Debug\net7.0\DojoSurvey.csproj.CoreCompileInputs.cache
 C:\C#\DojoSurvey\obj\Debug\net7.0\DojoSurvey.MvcApplicationPartsAssemblyInfo.cache
+C:\C#\DojoSurvey\obj\Debug\net7.0\DojoSurvey.RazorAssemblyInfo.cache
+C:\C#\DojoSurvey\obj\Debug\net7.0\DojoSurvey.RazorAssemblyInfo.cs
 C:\C#\DojoSurvey\obj\Debug\net7.0\staticwebassets\msbuild.DojoSurvey.Microsoft.AspNetCore.StaticWebAssets.props
 C:\C#\DojoSurvey\obj\Debug\net7.0\staticwebassets\msbuild.build.DojoSurvey.props
 C:\C#\DojoSurvey\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.DojoSurvey.props
@@ -23,5 +25,4 @@ C:\C#\DojoSurvey\obj\Debug\net7.0\refint\DojoSurvey.dll
 C:\C#\DojoSurvey\obj\Debug\net7.0\DojoSurvey.pdb
 C:\C#\DojoSurvey\obj\Debug\net7.0\DojoSurvey.genruntimeconfig.cache
 C:\C#\DojoSurvey\obj\Debug\net7.0\ref\DojoSurvey.dll
-C:\C#\DojoSurvey\obj\Debug\net7.0\DojoSurvey.RazorAssemblyInfo.cache
-C:\C#\DojoSurvey\obj\Debug\net7.0\DojoSurvey.RazorAssemblyInfo.cs
+C:\C#\DojoSurvey\bin\Debug\net7.0\DojoSurvey.staticwebassets.runtime.json

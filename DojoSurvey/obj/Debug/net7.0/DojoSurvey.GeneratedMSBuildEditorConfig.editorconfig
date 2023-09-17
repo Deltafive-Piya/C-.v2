@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = c:\C#\DojoSurvey
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/C\#/DojoSurvey/Views/Survey/FirstView.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VydmV5XEZpcnN0Vmlldy5jc2h0bWw=
+[c:/C\#/DojoSurvey/Views/Survey/Display.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VydmV5XERpc3BsYXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/C\#/DojoSurvey/Views/Survey/Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VydmV5XEZvcm0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

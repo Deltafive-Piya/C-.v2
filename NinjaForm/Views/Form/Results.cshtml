@@ -1,0 +1,26 @@
+@model FormData
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+</head>
+<body>
+    <h1>Submitted Info</h1>
+    
+    <div class="subject-section">
+        <p>Your Name: @Model.Name</p>
+        <p>Dojo Location: @Model.DojoLocation</p>
+        <p>Favorite Language: @Model.FavoriteLanguage</p>
+    </div>
+    
+    <div class="comment-section">
+        <p>Comment: @Model.Comment</p>
+    </div>
+    
+    <a href="/Form/Form">Go Back</a>
+</body>
+</html>

@@ -18,5 +18,7 @@ html {
 }
 
 body {
+  background-color: rgba(255, 222, 173, 0.396);
   margin-bottom: 60px;
+  font-family: monospace;
 }

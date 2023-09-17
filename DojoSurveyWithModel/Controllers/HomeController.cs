@@ -2,7 +2,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using DojoSurveyWithModel.Models;
-
 namespace DojoSurveyWithModel.Controllers;
 
 public class HomeController : Controller
@@ -15,7 +14,6 @@ public class HomeController : Controller
     {
         _logger = logger;
     }
-
     // Start getting and postin here
     [HttpGet("")]
     public IActionResult Index()
@@ -27,7 +25,7 @@ public class HomeController : Controller
     public IActionResult Process(User user) //2. pass the user here
     {
         NewUser = user; //3. populate new user with user here
-        return View();
+        return RedirectToAction("Result");
     }
 
     [HttpGet("result")]

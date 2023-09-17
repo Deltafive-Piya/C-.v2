@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Ninja Form";
 }
 @model User
 <div class="text-center">
@@ -19,7 +19,7 @@
         </div>
         <div class="mb-3">
             <label asp-for="Language"></label>
-            <select asp-for="Location" class="form-control">
+            <select asp-for="Language" class="form-control">
                 <option value="TSQL">TSQL</option>
                 <option value="Scala">Scala</option>
                 <option value="Cobol">Cobol</option>
@@ -30,6 +30,6 @@
             <label asp-for="Comment"></label>
             <textarea asp-for="Comment" class="form-control"></textarea>
         </div>
-        <input type="submit" value="Submit" class="btn btn-primary">
+        <input type="submit" value="Submit" class="btn btn-secondary">
     </form>
 </div>

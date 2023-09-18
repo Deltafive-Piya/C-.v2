@@ -15,3 +15,31 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = c:\C#\DateValidator
 build_property._RazorSourceGeneratorDebug = 
+
+[c:/C\#/DateValidator/DateValidator/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RGF0ZVZhbGlkYXRvclxWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/C\#/DateValidator/DateValidator/Views/Home/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RGF0ZVZhbGlkYXRvclxWaWV3c1xIb21lXFN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/C\#/DateValidator/DateValidator/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RGF0ZVZhbGlkYXRvclxWaWV3c1xTaGFyZWRcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/C\#/DateValidator/DateValidator/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RGF0ZVZhbGlkYXRvclxWaWV3c1xTaGFyZWRcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/C\#/DateValidator/DateValidator/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RGF0ZVZhbGlkYXRvclxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/C\#/DateValidator/DateValidator/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RGF0ZVZhbGlkYXRvclxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/C\#/DateValidator/DateValidator/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RGF0ZVZhbGlkYXRvclxWaWV3c1xTaGFyZWRcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-aqq4jen34x

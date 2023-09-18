@@ -18660,8 +18660,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\C#\\newMVC\\Crudelicious\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\C#\\newMVC\\Crudelicious\\Views\\Home\\Edit.cshtml",
+      "TargetPath": "Views\\Home\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\C#\\newMVC\\Crudelicious\\Views\\Home\\Details.cshtml",
+      "TargetPath": "Views\\Home\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\C#\\newMVC\\Crudelicious\\Views\\Home\\Create.cshtml",
+      "TargetPath": "Views\\Home\\Create.cshtml",
       "FileKind": "mvc"
     },
     {

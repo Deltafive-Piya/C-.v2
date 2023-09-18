@@ -1,0 +1,22 @@
+@model Dish
+
+<h1>@Model.Name</h1>
+
+<div>
+    <h4>Name: @Model.Name</h4>
+    <h4>Chef: @Model.Chef</h4>
+    <h4>Tastiness: @Model.Tastiness</h4>
+    <h4>Calories: @Model.Calories</h4>
+    <h4>Description: @Model.Description</h4>
+    <h4>Created At: @Model.CreatedAt</h4>
+    <h4>Updated At: @Model.UpdatedAt</h4>
+</div>
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.DishId">Edit</a>      //crUd
+</p>
+<p>
+    <a asp-action="Delete" asp-route-id="@Model.DishId">Delete</a>  //cruD
+</p>
+<p>
+    <a asp-action="Index">Back to List</a>                          /cRud
+</p>

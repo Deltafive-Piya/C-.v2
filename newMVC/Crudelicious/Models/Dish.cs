@@ -5,7 +5,6 @@ public class Dish                                           //
 {
     [Key]                           //PK Already [Required] by convention
     public int DishId {get;set;}    //PK  
-
     [Required]
     public string Name {get;set;}       
     [Required]                
@@ -21,5 +20,4 @@ public class Dish                                           //
 
     public DateTime CreatedAt {get;set;} = DateTime.Now;
     public DateTime UpdatedAt {get;set;} = DateTime.Now;
-
 }

@@ -12,10 +12,12 @@
     <h4>Updated At: @Model.UpdatedAt</h4>
 </div>
 <p>
-    <a asp-action="Edit" asp-route-id="@Model.DishId">Edit</a>      //crUd
+    <a asp-action="Edit" asp-route-dishId="@Model.DishId">Edit</a>      //crUd
 </p>
 <p>
-    <a asp-action="Delete" asp-route-id="@Model.DishId">Delete</a>  //cruD
+    <form asp-action="Delete" asp-route-id="@Model.DishId" method="post"> //REMEMBER - Not an a tag, a form tag
+        <button class="btn-danger">Delete</button>
+    </form>  //cruD
 </p>
 <p>
     <a asp-action="Index">Back to List</a>                          /cRud

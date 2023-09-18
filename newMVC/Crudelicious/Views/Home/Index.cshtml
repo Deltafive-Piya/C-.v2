@@ -1,14 +1,15 @@
 ﻿@model List<Dish>
 
-@foreach (Dish dish in Model)
+@foreach (Dish dish in Model) //Remember- Have to call it "Model" here; gets model from Index()
 {
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title">@dish.Name</h5>
-            <h6 class="card-subtitle mb-2 text-muted">@dish.Chef</h6>
-            <p class="card-text">Tastiness: @dish.Tastiness</p>
+            <h5>dish.Name</h5>
+            <h6>@dish.Chef</h6>
+            <p>Tastiness: @dish.Tastiness</p>
             <p class="card-text">Calories: @dish.Calories</p>
             <a asp-action="Details" asp-route-id="@dish.DishId">View Details</a>
+            @await Html.PartialAsync("_MyPartial")
         </div>
     </div>
 }

@@ -17,20 +17,20 @@ public class DishController : Controller
         _context = context;
     }
 
-    [HttpGet("dishes/view")]                       //REMEMBER
+    [HttpGet("dish/view")]                       //REMEMBER
     public IActionResult ViewDish()
     {
         List<Dish> AllDishes = _context.Dishes.Include(d => d.Cook).ToList(); //JOIN
         return View(AllDishes);
     }
-    [HttpGet("dishes/new")]
+    [HttpGet("dish/new")]
     public IActionResult AddDish()
     {
         List<Chef> Cooks = _context.Chefs.ToList();
         ViewBag.ChefList = new SelectList(Cooks, "ChefId", "FirstName");
         return View();
     }
-    [HttpPost("dishes/create")]
+    [HttpPost("dish/create")]
     public IActionResult CreateDish(Dish newDish)
     {
         if (ModelState.IsValid)

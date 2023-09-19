@@ -2,7 +2,7 @@
 @await Html.PartialAsync("_navBar")
 <h1>Create a New Chef</h1>
 
-<form asp-action="CreateChef" asp-controller="Chef" method="post"> //asp-controller
+<form asp-action="CreateChef" asp-controller="Chef" method="post"> @*asp-controller*@
     <div class="form-group">
         <label asp-for="FirstName">FName</label>
         <input asp-for="FirstName" class="form-control" />

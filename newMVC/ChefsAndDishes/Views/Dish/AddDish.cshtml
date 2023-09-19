@@ -3,7 +3,7 @@
 
 <h1>Create a New Dish</h1>
 
-<form asp-action="CreateDish" asp-controller="Dish" method="post"> //asp-controller
+<form asp-action="CreateDish" asp-controller="Dish" method="post"> @*REMEMEBER- asp-controller*@
     <div class="form-group">
         <label asp-for="DishName">Name</label>
         <input asp-for="DishName" class="form-control" />

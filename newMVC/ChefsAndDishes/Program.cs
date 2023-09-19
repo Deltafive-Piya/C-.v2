@@ -1,4 +1,4 @@
-using Microsoft.EntityFrameworkCore; //Because Microsoft says so
+using Microsoft.EntityFrameworkCore;
 using ChefsAndDishes.Models; // In order to access MyContext.cs within Models
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection"); //get DefaultConnection we made in appsettings.json

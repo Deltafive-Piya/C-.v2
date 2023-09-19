@@ -1,0 +1,27 @@
+@model List<Dish>
+@using Microsoft.EntityFrameworkCore; 
+@await Html.PartialAsync("_navBar")
+
+<h1>Meal List:</h1>
+<hr>
+<table>
+    <thead>
+        <tr>
+        <td>Meal Name</td>
+        <td>Chef</td>
+        <td>Tastiness</td>
+        <td>Calories</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Dish dish in Model)
+        {
+            <tr>
+                <td>@dish.DishName</td>
+                <td>@dish.Cook.FirstName @dish.Cook.LastName</td>
+                <td>@dish.Tastiness</td>
+                <td>@dish.Calories</td>
+            </tr>
+        };
+    </tbody>
+</table>

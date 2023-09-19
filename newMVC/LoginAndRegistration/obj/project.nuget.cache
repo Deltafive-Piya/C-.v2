@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8YgZIe3KRuUmp3LEQ01OA0j5/8uhnzjQOkG04DRqcnCmr1cjQJg1XWXlAa6kf+0wK+Ax9gOQOr+ONAm0RjUmbQ==",
+  "dgSpecHash": "6NMR9LsY23IXcd/C6LsVLIvPcc790XqzJZAJKz91u17AviW5v4z+UVlvyNQ/Qk52yo9kaenzQGD3jmajNcqzCQ==",
   "success": true,
   "projectFilePath": "C:\\C#\\newMVC\\LoginAndRegistration\\LoginAndRegistration.csproj",
   "expectedPackageFiles": [
@@ -65,6 +65,8 @@
     "C:\\Users\\piers\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\piers\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\piers\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\piers\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512",
+    "C:\\Users\\piers\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\7.0.0\\pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512",
     "C:\\Users\\piers\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\piers\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\piers\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",

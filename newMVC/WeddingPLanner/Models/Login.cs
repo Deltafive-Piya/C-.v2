@@ -1,4 +1,4 @@
-#pragma warning disable CS8618 //maybe exam ready
+#pragma warning disable CS8618
 using System.ComponentModel.DataAnnotations;
 // using Microsoft.AspNetCore.Mvc;
 

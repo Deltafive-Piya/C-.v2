@@ -1,7 +1,8 @@
-#pragma warning disable CS8618 //maybe exam ready...
+#pragma warning disable CS8600
+#pragma warning disable CS8602
+#pragma warning disable CS8618
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-
 namespace WeddingPlanner.Models;
 
 public class Guest                       
@@ -37,9 +38,9 @@ public class Guest
     [Compare("Password")]
     [DataType(DataType.Password)] 
     public string ConfirmPassword { get; set; }
-
-
 }
+
+
 public class UniqueEmailAttribute : ValidationAttribute
 {
     protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)

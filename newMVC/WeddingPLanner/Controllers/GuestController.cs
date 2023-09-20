@@ -1,9 +1,8 @@
-using System.Diagnostics;
+// using System.Diagnostics;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using WeddingPlanner.Models;
-using Microsoft.EntityFrameworkCore;
-
+// using Microsoft.EntityFrameworkCore;
 namespace WeddingPlanner.Controllers;
 
 public class GuestController : Controller

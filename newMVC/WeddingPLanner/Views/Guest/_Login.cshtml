@@ -1,15 +1,26 @@
 @model Login
-<form asp-action="Login" asp-controller="Guest" method="post"> @*because HomeC.cs in Home *@
-    <div>
-        <label for="LogEmail">Email:</label>
-        <input asp-for="LogEmail"/>
-        <span asp-validation-for="LogEmail"></span>
+<form asp-action="Login" asp-controller="Guest" method="post" style="margin-top: 20px;">
+    <div style="margin-bottom: 10px;">
+        @* <label for="LogEmail">Email:</label> *@
+        <span asp-validation-for="LogEmail" style="color: red;"></span>
     </div>
-    <div>
-        <label for="LogPassword">Password:</label>
-        <input asp-for="LogPassword"/>
-        <span asp-validation-for="LogPassword"></span>
-
+    <div style="margin-bottom: 10px;">
+        @* <label for="LogPassword">Password:</label> *@
+        <span asp-validation-for="LogPassword" style="color: red;"></span>
     </div>
-    <input type="submit" value="Login"/>
+    <div style="margin-bottom: 10px;">
+        <input asp-for="LogEmail" placeholder="email" style="width: 100%; padding: 5px;" />
+    </div>
+    <div style="margin-bottom: 10px;">
+        <input asp-for="LogPassword" type="password" placeholder="password" style="width: 100%; padding: 5px;" />
+    </div>
+    <div style="margin-top: 10px;">
+        <input type="submit" value="Login" style="
+                                                background-color: #fb25c2d8; color: white;
+                                                padding: 10px 20px;
+                                                border: none;
+                                                cursor: pointer;
+                                                border-radius: 9px;
+                                                " />
+    </div>
 </form>

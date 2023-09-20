@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\C#\\newMVC\\WeddingPlanner\\WeddingPlanner.csproj": {}
+    "C:\\c#\\newMVC\\WeddingPlanner\\WeddingPlanner.csproj": {}
   },
   "projects": {
-    "C:\\C#\\newMVC\\WeddingPlanner\\WeddingPlanner.csproj": {
+    "C:\\c#\\newMVC\\WeddingPlanner\\WeddingPlanner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\C#\\newMVC\\WeddingPlanner\\WeddingPlanner.csproj",
+        "projectUniqueName": "C:\\c#\\newMVC\\WeddingPlanner\\WeddingPlanner.csproj",
         "projectName": "WeddingPlanner",
-        "projectPath": "C:\\C#\\newMVC\\WeddingPlanner\\WeddingPlanner.csproj",
+        "projectPath": "C:\\c#\\newMVC\\WeddingPlanner\\WeddingPlanner.csproj",
         "packagesPath": "C:\\Users\\piers\\.nuget\\packages\\",
-        "outputPath": "C:\\C#\\newMVC\\WeddingPlanner\\obj\\",
+        "outputPath": "C:\\c#\\newMVC\\WeddingPlanner\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\piers\\AppData\\Roaming\\NuGet\\NuGet.Config"

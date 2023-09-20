@@ -1,17 +1,43 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Piya's";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <div class="d-flex text-center">
-        <div>
-            <h3>Login</h3>
-            @await Html.PartialAsync("_Login")
-        </div>
-        <div>
-            <h3>Register</h3>
-            @await Html.PartialAsync("_RegisterGuest")
+<div class="text-center"
+     style="outline: solid 1px red;
+            padding: 10px;
+            min-height: 480px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            font-family: helvetica;
+            background-image: url('/images/HappyCouple.jpg') linear-gradient(rgba(255, 255, 255, 0.4);
+            background-position: center center;
+            background-color: rgba(255, 255, 255, 0.5);
+
+            ">
+    <div>
+        <div style="
+                display:flex;
+                ">
+            <div>
+                <h5>Login</h5>
+                <div style="margin-right: 5 px;">
+                @await Html.PartialAsync("_Login")
+                </div>
+            </div>
+            <div>
+                <h5>Register</h5>
+                @await Html.PartialAsync("_RegisterGuest")
+            </div>
         </div>
     </div>
+    <h4 style="
+    letter-spacing: 2px;
+    color: pink;
+    ">Wedding Planning Has Never Been Easier</h4>
+    <h5 style="
+    letter-spacing: 1px;
+    color: pink;
+    ">Wedding Website, Registry, Guest List, and more!</h5>
 </div>

@@ -1,12 +1,12 @@
-#pragma warning disable CS8618 //maybe exam ready...
+#pragma warning disable CS8618
 using System.ComponentModel.DataAnnotations;
 
-namespace WeddingPlanner.Models; //Is the namsepace correct?
+namespace WeddingPlanner.Models;            //Is the namsepace correct?
 
 public class Wedding                       //Is modelName correct?
 {
 
-    [Key]                           //PK
+    [Key]                               //PK
     public int WeddingId { get; set; } //PK
 
     [Required]
@@ -41,6 +41,6 @@ public class DateCheck : ValidationAttribute
         {
             return true;
         }
-        return false; // if not valid age or future person
+        return false; // if not valid Date or future MarriageDate 
     }
 }

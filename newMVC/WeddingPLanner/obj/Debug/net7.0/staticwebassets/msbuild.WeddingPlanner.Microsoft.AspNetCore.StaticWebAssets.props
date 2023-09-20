@@ -16,12 +16,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\site.css))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\HappyCouple.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>WeddingPlanner</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WeddingPlanner</BasePath>
-      <RelativePath>favicon.ico</RelativePath>
+      <RelativePath>images/HappyCouple.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -30,7 +30,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\HappyCouple.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\site.js))">
       <SourceType>Package</SourceType>
@@ -959,6 +959,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ninja.ico))">
+      <SourceType>Package</SourceType>
+      <SourceId>WeddingPlanner</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WeddingPlanner</BasePath>
+      <RelativePath>ninja.ico</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ninja.ico))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\WeddingPlanner.bundle.scp.css))">
       <SourceType>Package</SourceType>

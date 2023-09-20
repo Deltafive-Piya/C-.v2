@@ -1169,8 +1169,8 @@
   padding-left: 3rem !important;
 }
 
-.font-monospace {
-  font-family: var(--bs-font-monospace) !important;
+.font-union-serif; {
+  font-family: var(--bs-font-union-serif;) !important;
 }
 
 .fs-1 {

@@ -1,34 +1,52 @@
 @model Guest
-<form asp-action="CreateGuest" asp-controller="Guest" method="post">
-    <div>
-        <label for="FirstName">First Name:</label>
-        <input asp-for="FirstName" />
-        <span asp-validation-for="FirstName"></span>
-
+<form asp-action="CreateGuest" asp-controller="Guest" method="post" style="
+                                                                        display: flex;
+                                                                        flex-direction: column;
+                                                                        
+                                                                        ">
+    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+        @* <label for="FirstName" style="width: 150px;">First Name:</label> *@
+        <div style="flex-grow: 1;">
+            <input asp-for="FirstName" placeholder="first name" style="width: 100%;" />
+            <span asp-validation-for="FirstName"></span>
+        </div>
     </div>
-    <div>
-        <label for="LastName">Last Name:</label>
-        <input asp-for="LastName" />
-        <span asp-validation-for="LastName"></span>
-
+    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+        @* <label for="LastName" style="width: 150px;">Last Name:</label> *@
+        <div style="flex-grow: 1;">
+            <input asp-for="LastName" placeholder="surname" style="width: 100%;" />
+            <span asp-validation-for="LastName"></span>
+        </div>
     </div>
-    <div>
-        <label for="Email">Email:</label>
-        <input asp-for="Email" />
-        <span asp-validation-for="Email"></span>
-
+    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+        @* <label for="Email" style="width: 150px;">Email:</label> *@
+        <div style="flex-grow: 1;">
+            <input asp-for="Email" placeholder="email" style="width: 100%;" />
+            <span asp-validation-for="Email"></span>
+        </div>
     </div>
-    <div>
-        <label for="Password">Password:</label>
-        <input asp-for="Password" />
-        <span asp-validation-for="Password"></span>
-
+    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+        @* <label for="Password" style="width: 150px;">Password:</label> *@
+        <div style="flex-grow: 1;">
+            <input asp-for="Password" type="password" placeholder="password" style="width: 100%;" />
+            <span asp-validation-for="Password"></span>
+        </div>
     </div>
-    <div>
-        <label for="ConfirmPassword">Confirm Password:</label>
-        <input asp-for="ConfirmPassword" />
-        <span asp-validation-for="ConfirmPassword"></span>
-
+    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+        @* <label for="ConfirmPassword" style="width: 150px;">Confirm Password:</label> *@
+        <div style="flex-grow: 1;">
+            <input asp-for="ConfirmPassword" type="password" placeholder="confirm password" style="width: 100%;" />
+            <span asp-validation-for="ConfirmPassword"></span>
+        </div>
     </div>
-    <input type="submit" value="Register" />
+    <input type="submit" value="Register" style="
+                                            align-self: center;
+                                            width: 100px; 
+                                            margin-top: 10px;
+                                            background-color: #fb25c2b3; color: white;
+                                            padding: 10px 20px;
+                                            border: none;
+                                            cursor: ;
+                                            border-radius: 9px;
+                                             "/>
 </form>

@@ -58,6 +58,10 @@ namespace WeddingPlanner.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime(6)");
 
@@ -144,9 +148,9 @@ namespace WeddingPlanner.Migrations
 
             modelBuilder.Entity("WeddingPlanner.Models.Guest", b =>
                 {
-                    b.Navigation("Weddings");
-
                     b.Navigation("Rsvps");
+
+                    b.Navigation("Weddings");
                 });
 
             modelBuilder.Entity("WeddingPlanner.Models.Wedding", b =>

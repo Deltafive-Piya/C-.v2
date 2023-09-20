@@ -28,15 +28,14 @@ public class WeddingController : Controller
     public IActionResult ViewWedding(int id )
     {
         Wedding? wed = _context.Weddings.Include(p => p.Organizer)
-            .Include(p => p.AllGuests)
-            // This reaches into the MIDdle table to grab the nested value of User
-            .ThenInclude(mid => mid.Guest)
-            .FirstOrDefault(p => p.WeddingId == id);
+                                        .Include(p => p.AllGuests)
+                                        .ThenInclude(mid => mid.Guest)
+                                        .FirstOrDefault(p => p.WeddingId == id);
         if(wed == null)
         {
             return RedirectToAction("Dashboard");
         }
-        return View(wed);
+        return View();
     }
 
     [HttpGet("wedding/new")]
@@ -49,9 +48,10 @@ public class WeddingController : Controller
     {
         if (ModelState.IsValid)
         {
+            newWedding.GuestId = (int) HttpContext.Session.GetInt32("GuestId");
             _context.Add(newWedding);
             _context.SaveChanges();
-            return RedirectToAction("ViewWedding");
+            return RedirectToAction("ViewWedding", "Wedding");
         }
         return View("AddWedding");
         // return View ("AddWedding",newWedding);

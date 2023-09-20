@@ -11,8 +11,8 @@ using WeddingPlanner.Models;
 namespace WeddingPlanner.Migrations
 {
     [DbContext(typeof(MyContext))]
-    [Migration("20230919212506_SecondMigration")]
-    partial class SecondMigration
+    [Migration("20230920031458_FirstMigration")]
+    partial class FirstMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -60,6 +60,10 @@ namespace WeddingPlanner.Migrations
                     b.Property<int>("WeddingId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime(6)");
@@ -118,7 +122,7 @@ namespace WeddingPlanner.Migrations
             modelBuilder.Entity("WeddingPlanner.Models.Wedding", b =>
                 {
                     b.HasOne("WeddingPlanner.Models.Guest", "Organizer")
-                        .WithMany()
+                        .WithMany("Weddings")
                         .HasForeignKey("GuestId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -148,6 +152,8 @@ namespace WeddingPlanner.Migrations
             modelBuilder.Entity("WeddingPlanner.Models.Guest", b =>
                 {
                     b.Navigation("Rsvps");
+
+                    b.Navigation("Weddings");
                 });
 
             modelBuilder.Entity("WeddingPlanner.Models.Wedding", b =>

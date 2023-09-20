@@ -48,20 +48,22 @@ public class GuestController : Controller
     {
         if(ModelState.IsValid)
         {
-            Guest? userInDb = _context.Guests.FirstOrDefault(u => u.Email == loginGuest.LogEmail);                   //find the user based on Email
+            Guest? userInDb = _context.Guests.SingleOrDefault(u => u.Email == loginGuest.LogEmail);                   //find the user based on Email
             if(userInDb == null)
             {
                 ModelState.AddModelError("LogEmail", "Invalid Email/Password");
                 Console.WriteLine("LogEmail console");
-                return View("Index");
+                // return View("Index");
+                return RedirectToAction("Dashboard","Wedding");
             }
-            PasswordHasher<Login> hasher = new();
+            PasswordHasher<Login> hasher = new PasswordHasher<Login>();
             var result = hasher.VerifyHashedPassword(loginGuest, userInDb.Password,loginGuest.LogPassword);         //Created a variable that will store the result of pass comparison
             if(result == 0)                                                                                     //If validation fails
             {
                 Console.WriteLine("LogPassword console");
                 ModelState.AddModelError("LogPassword", "Invalid Email/Password");                                   //Handle a failed validation
-                return View("Index");
+                // return View("Index");
+                return RedirectToAction("Dashboard","Wedding");
             } 
             HttpContext.Session.SetInt32("GuestId", userInDb.GuestId);       //move on, action "Success"
             HttpContext.Session.SetString("FirstName", userInDb.FirstName);       //move on, action "Success"

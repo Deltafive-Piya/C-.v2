@@ -20,6 +20,9 @@ public class Wedding                       //Is modelName correct?
     [Required (ErrorMessage = "must enter Marriage Date")]
     [DateCheck (ErrorMessage = "must be in future")]
     public DateTime MarriageDate { get; set; }
+    
+    [Required]
+    public string Address { get; set; }
 
     public DateTime CreatedAt {get;set;} = DateTime.Now;
     public DateTime UpdatedAt {get;set;} = DateTime.Now;

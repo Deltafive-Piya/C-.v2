@@ -9,7 +9,6 @@ public class Login
 
     [Required]
     [EmailAddress]
-    [UniqueEmail]
     public string LogEmail { get; set; } //Change Email to Log Email
 
     [Required]                              //

@@ -35,7 +35,7 @@ public class WeddingController : Controller
         {
             return RedirectToAction("Dashboard");
         }
-        return View();
+        return View(wed);
     }
 
     [HttpGet("wedding/new")]
@@ -51,10 +51,44 @@ public class WeddingController : Controller
             newWedding.GuestId = (int) HttpContext.Session.GetInt32("GuestId");
             _context.Add(newWedding);
             _context.SaveChanges();
-            return RedirectToAction("ViewWedding", "Wedding");
+            // return RedirectToAction("ViewWedding", newWedding.WeddingId);
+            return RedirectToAction("Dashboard");
+                                                                                //Todo Change this
+            // return ViewWedding(newWedding.WeddingId);
         }
         return View("AddWedding");
         // return View ("AddWedding",newWedding);
     }
+    [HttpPost("wedding/{id}/rsvp")]
+    public IActionResult AddGuest(int id)
+    {
+        int UUID = (int)HttpContext.Session.GetInt32("GuestId");
+        WeddingHasGuests rsvp = _context.WeddingHasGuests.FirstOrDefault(r => r.WeddingId == id && r.GuestId == UUID);
+        if (rsvp == null)
+        {
+            WeddingHasGuests isRsvpd = new()
+            {
+                GuestId = UUID,
+                WeddingId = id
+            }; 
+            _context.Add(isRsvpd);
+            
+        } else {
+            _context.Remove(rsvp);
+        }
+        _context.SaveChanges();
+        return RedirectToAction("Dashboard");
+    }
 
+    [HttpPost("wedding/{id}/destroy")]
+    public IActionResult DeleteWedding(int id) //goes into dashboard.cshtml
+    {
+        Wedding? Wedding = _context.Weddings.FirstOrDefault(w => w.WeddingId == id);
+        if (Wedding != null) 
+        {
+            _context.Remove(Wedding);
+            _context.SaveChanges();
+        }
+            return RedirectToAction("Dashboard");
+    }
 }

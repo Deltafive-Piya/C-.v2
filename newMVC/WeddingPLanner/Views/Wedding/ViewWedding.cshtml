@@ -1,3 +1,5 @@
 @model Wedding
-<h1>Weedings here</h1>
+@foreach (WeddingHasGuests guests in Model.AllGuests) {
+    <p>@guests.Guest.FirstName</p>
+}
 <p>@Model.MarriageDate</p>

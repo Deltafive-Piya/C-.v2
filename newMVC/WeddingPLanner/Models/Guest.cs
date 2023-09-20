@@ -31,7 +31,7 @@ public class Guest
     public DateTime UpdatedAt {get;set;} = DateTime.Now;
     public List<Wedding> Weddings {get;set;} = new List<Wedding>();
 
-    public List<WeddingHasGuests> Rsvps {get;set;} = new List<WeddingHasGuests>(); //establish m-m realation many guest many weddings
+    public List<WeddingHasGuests> Rsvps {get;set;} = new List<WeddingHasGuests>(); //establish m-m relation many guest many weddings
 
     [NotMapped]                                             //? is cpass notmapped?
     [Compare("Password")]

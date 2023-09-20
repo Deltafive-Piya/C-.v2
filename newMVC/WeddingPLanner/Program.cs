@@ -1,10 +1,12 @@
 using Microsoft.EntityFrameworkCore;
-using WeddingPLanner.Models; // In order to access MyContext.cs within Models
+using WeddingPlanner.Models; // In order to access MyContext.cs within Models
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection"); //get DefaultConnection we made in appsettings.json
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddSession();
 builder.Services.AddDbContext<MyContext>(options =>                                 //
 {
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)); //
@@ -19,6 +21,7 @@ if (!app.Environment.IsDevelopment())
 }
 app.UseStaticFiles();
 app.UseRouting();
+app.UseSession();
 app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",

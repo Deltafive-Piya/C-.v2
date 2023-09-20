@@ -17,12 +17,15 @@ public class DishController : Controller
         _context = context;
     }
 
-    [HttpGet("dish/view")]                       //REMEMBER
+    
+    [HttpGet("dish/view")]
     public IActionResult ViewDish()
     {
         List<Dish> AllDishes = _context.Dishes.Include(d => d.Cook).ToList(); //JOIN
         return View(AllDishes);
     }
+
+    //C view
     [HttpGet("dish/new")]
     public IActionResult AddDish()
     {
@@ -30,6 +33,8 @@ public class DishController : Controller
         ViewBag.ChefList = new SelectList(Cooks, "ChefId", "FirstName");
         return View();
     }
+
+    //C action
     [HttpPost("dish/create")]
     public IActionResult CreateDish(Dish newDish)
     {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NPalYbEgOPL/9l5OUdd8Tq2wrx8RXfoULIZGInquW7QvQ0IZCuaAC1hwdBQYITWH3occo2i167XVsxfnK5dDWA==",
+  "dgSpecHash": "vVeRcX2yYDXYPTJnYvMd/QIJnnxJx7HvEPQuWMRMr3r5ZKP5WA2cRW4tgNoGSGgkdCPpGCxzSb8EVk8ieR/trg==",
   "success": true,
-  "projectFilePath": "C:\\C#\\newMVC\\WeddingPLanner\\WeddingPLanner.csproj",
+  "projectFilePath": "C:\\C#\\newMVC\\WeddingPlanner\\WeddingPlanner.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\piers\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\piers\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.11\\microsoft.entityframeworkcore.7.0.11.nupkg.sha512",

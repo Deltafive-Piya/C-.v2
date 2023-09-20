@@ -24,6 +24,7 @@ public class User                       //Is modelName correct?
 
     [Required]
     [MinLength(8)]
+    [DataType(DataType.Password)]  
     public string Password { get; set; }
 
     public DateTime CreatedAt {get;set;} = DateTime.Now;
@@ -31,6 +32,7 @@ public class User                       //Is modelName correct?
 
     [NotMapped]                                             //is cpass notmapped?
     [Compare("Password")]
+    [DataType(DataType.Password)]  
     public string ConfirmPassword { get; set; }
 
 

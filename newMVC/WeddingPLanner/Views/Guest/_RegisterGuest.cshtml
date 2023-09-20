@@ -1,0 +1,34 @@
+@model Guest
+<form asp-action="CreateGuest" asp-controller="Guest" method="post">
+    <div>
+        <label for="FirstName">First Name:</label>
+        <input asp-for="FirstName" />
+        <span asp-validation-for="FirstName"></span>
+
+    </div>
+    <div>
+        <label for="LastName">Last Name:</label>
+        <input asp-for="LastName" />
+        <span asp-validation-for="LastName"></span>
+
+    </div>
+    <div>
+        <label for="Email">Email:</label>
+        <input asp-for="Email" />
+        <span asp-validation-for="Email"></span>
+
+    </div>
+    <div>
+        <label for="Password">Password:</label>
+        <input asp-for="Password" />
+        <span asp-validation-for="Password"></span>
+
+    </div>
+    <div>
+        <label for="ConfirmPassword">Confirm Password:</label>
+        <input asp-for="ConfirmPassword" />
+        <span asp-validation-for="ConfirmPassword"></span>
+
+    </div>
+    <input type="submit" value="Register" />
+</form>

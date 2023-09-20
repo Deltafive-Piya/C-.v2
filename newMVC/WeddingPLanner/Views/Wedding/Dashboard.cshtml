@@ -1,0 +1,33 @@
+@model List<Wedding>
+@{int UUID = (int)Context.Session.GetInt32("GuestId");}
+@* @await Html.PartialAsync("_navbar") *@
+<table>
+    <thead>
+        <tr>
+            <td>WeddingOf</td>
+            <td>Date</td>
+            <td>Guest Count</td>
+            <td>Action</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(Wedding wed in Model){
+            bool isRsvp = wed.AllGuests.Any(rsvp => rsvp.GuestId == UUID);
+            <tr>
+                <td><a asp-action="ViewWedding" asp-controller="Wedding" asp-route-id="@wed.WeddingId">@wed.WedderOne & @wed.WedderTwo</a></td>
+                <td>@wed.MarriageDate.ToString("MMM d yyyy")</td>
+                <td>@wed.AllGuests.Count</td>
+                <td>@if(wed.GuestId == UUID)
+                    {
+                        <form asp-action="Delete" asp-controller="Wedding" asp-route-id="@wed.WeddingId" method="post">
+                            <input type="submit" value="Delete"/>
+                        </form>
+                    }else {
+                        <form asp-action="AddGuest" asp-controller="Wedding" asp-route-id="@wed.WeddingId" method="post">
+                            <input type="submit" value="@(isRsvp ? "Going" : "Not Going")"/>
+                        </form>
+                    }
+            </tr>
+        }
+    </tbody>
+</table>

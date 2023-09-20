@@ -1,0 +1,15 @@
+@model Login
+<form asp-action="Login" asp-controller="Guest" method="post"> @*because HomeC.cs in Home *@
+    <div>
+        <label for="LogEmail">Email:</label>
+        <input asp-for="LogEmail"/>
+        <span asp-validation-for="LogEmail"></span>
+    </div>
+    <div>
+        <label for="LogPassword">Password:</label>
+        <input asp-for="LogPassword"/>
+        <span asp-validation-for="LogPassword"></span>
+
+    </div>
+    <input type="submit" value="Login"/>
+</form>

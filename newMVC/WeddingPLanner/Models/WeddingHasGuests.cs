@@ -1,27 +1,19 @@
-#pragma warning disable CS8618 //ready
+#pragma warning disable CS8618
 using System.ComponentModel.DataAnnotations;
 
-namespace WeddingPLanner.Models; //Is the namsepace correct?
+namespace WeddingPlanner.Models;
 
-public class WeddingHasGuests                       //Is modelName correct?
+public class WeddingHasGuests
 {
+    [Key]    
+    public int GuestWeddingId { get; set; } 
 
-    [Key]                           //PK
-    public int WeddingId { get; set; } //PK
+    public int GuestId { get; set; }    //Guest table
+    public int WeddingId { get; set; }  //Wedding Table
 
-    [Required]
-    [MinLength(2)]
-    public string WedderOne { get; set; }
+    public Guest? Guest { get; set; }    
+    public Wedding? Wedding { get; set; }
 
-    [Required]
-    [MinLength(2)]
-    public string WedderTwo { get; set; }
-    
-    [Required]
-    public DateTime Age { get; set; }
-
-    public DateTime CreatedAt {get;set;} = DateTime.Now;
-    public DateTime UpdatedAt {get;set;} = DateTime.Now;
+    public DateTime CreatedAt { get; set; } = DateTime.Now;
+    public DateTime UpdatedAt { get; set; } = DateTime.Now;
 }
-
-// fix

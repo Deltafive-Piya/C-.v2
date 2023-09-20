@@ -1,7 +1,7 @@
-#pragma warning disable CS8618 //ready
+#pragma warning disable CS8618 //maybe exam ready...
 using System.ComponentModel.DataAnnotations;
 
-namespace WeddingPLanner.Models; //Is the namsepace correct?
+namespace WeddingPlanner.Models; //Is the namsepace correct?
 
 public class Wedding                       //Is modelName correct?
 {
@@ -17,13 +17,27 @@ public class Wedding                       //Is modelName correct?
     [MinLength(2)]
     public string WedderTwo { get; set; }
     
-    [Required]
-    public DateTime Age { get; set; }
-    public string Address { get; set; }
+    [Required (ErrorMessage = "must enter Marriage Date")]
+    [DateCheck (ErrorMessage = "must be in future")]
+    public DateTime MarriageDate { get; set; }
 
     public DateTime CreatedAt {get;set;} = DateTime.Now;
     public DateTime UpdatedAt {get;set;} = DateTime.Now;
 
-    public List<WeddingHasGuests> AllGuests {get;set;} = new List<WeddingHasGuests>();
+    public List<WeddingHasGuests> AllGuests {get;set;} = new List<WeddingHasGuests>(); //establish m-m realation many guest many weddings
+    
+    public Guest? Organizer {get;set;}      //establish what one guest made this wedding, organizer may !exist later
+    public int GuestId {get;set;}           //REMEMBER these work together...
 }
 
+public class DateCheck : ValidationAttribute
+{
+    public override bool IsValid(object? value)
+    {
+        if (value is DateTime MarriageDate && MarriageDate > DateTime.Now)
+        {
+            return true;
+        }
+        return false; // if not valid age or future person
+    }
+}

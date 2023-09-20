@@ -1,4 +1,4 @@
-namespace WeddingPLanner.Models;
+namespace WeddingPlanner.Models;
 
 public class ErrorViewModel
 {

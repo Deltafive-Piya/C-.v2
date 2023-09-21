@@ -1,0 +1,49 @@
+@model List<Coupon>
+@{
+    int? UUID = Context.Session.GetInt32("UserId");
+}
+@await Html.PartialAsync("_Nav")
+<h2>Welcome, </h2>
+<div class="custom-container">
+    <table class="table">
+        <thead>
+            <tr>
+                <td>Coupon Code</td>
+                <td>Use On</td>
+                <td>Times Used</td>
+                <td>Posted By</td>
+                <td>Description</td>
+                <td>Action</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Coupon coup in Model)
+            {
+                bool isRsvp = coup.AllUsers.Any(rsvp => rsvp.UserId == UUID);
+                <tr>
+                    <td>
+                        @coup.CouponCode
+                    </td>
+                    <td>@coup.CouponUsedAt</td>
+                    <td>@coup.AllUsers.Count</td>
+                    <td>@coup.Organizer.UserName</td>
+                    <td>@coup.CouponDescription</td>
+                    <td>
+                        @if (coup.UserId == UUID)
+                        {
+                            <span>You posted this</span>
+                        }
+                        else if (isRsvp)
+                        {
+                            <span>You used this</span>
+                        } else {
+                            <form asp-action="AddUser" asp-controller="Coupon" asp-route-id="@coup.CouponId" method="post">
+                                <input type="submit" value="Use This Coupon" />
+                            </form>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,5 +1,21 @@
 @model Wedding
-@foreach (WeddingHasGuests guests in Model.AllGuests) {
-    <p>@guests.Guest.FirstName</p>
-}
-<p>@Model.MarriageDate</p>
+@* @await Html.PartialAsync("_Nav") *@
+<div class="custom-container">
+    <h4 class="custom-heading">Wedding Details</h4>
+    <p class="custom-subheading">Marriage Date: @Model.MarriageDate</p>
+    <table class="table table-bordered table-striped">  @*this didnt work at all...*@
+        <thead>
+            <tr>
+                <th>Guest List:</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (WeddingHasGuests guests in Model.AllGuests)
+            {
+                <tr>
+                    <td>@guests.Guest.FirstName</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

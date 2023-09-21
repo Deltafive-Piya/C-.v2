@@ -1,0 +1,23 @@
+@model Coupon
+@await Html.PartialAsync("_Nav")
+<div class="custom-container">
+    <h4 class="custom-heading">Add a Coupon</h4>
+    <form asp-action="CreateCoupon" asp-controller="Coupon" method="post">
+        <div class="form-group">
+            <label asp-for="CouponCode">Coupon Code:</label>
+            <input asp-for="CouponCode" class="form-control" placeholder="DABOMB" />
+            <span asp-validation-for="CouponCode" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="CouponUsedAt">Website Applicable at:</label>
+            <input asp-for="CouponUsedAt" class="form-control" placeholder="The Bombinos" />
+            <span asp-validation-for="CouponUsedAt" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="CouponDescription">Description:</label>
+            <input asp-for="CouponDescription" class="form-control" placeholder="Save 15% in 15min" />
+            <span asp-validation-for="CouponDescription" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Add Coupon</button>
+    </form>
+</div>

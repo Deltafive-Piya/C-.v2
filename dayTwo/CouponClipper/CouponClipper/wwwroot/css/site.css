@@ -1,0 +1,62 @@
+html {
+  font-size: 14px;
+  outline: 1px solid red;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.custom-container {
+  outline: solid 1px red;
+  padding: 10px;
+  min-height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: helvetica;
+  background-image: url('/images/HappyCouple.jpg') linear-gradient(rgba(255, 255, 255, 0.4));
+  background-position: center center;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.custom-heading {
+  letter-spacing: 2px;
+  color: pink;
+}
+
+.custom-subheading {
+  letter-spacing: 1px;
+  color: pink;
+}
+
+.piya-navbar {
+  display:flex;
+}
+
+.coupon-box {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.coupon-info {
+  margin: 5px 0;
+}

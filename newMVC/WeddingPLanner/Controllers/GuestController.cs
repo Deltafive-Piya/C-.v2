@@ -23,6 +23,9 @@ public class GuestController : Controller
         return View();
     }
 
+
+
+
     [HttpPost("guests/create")]
     public IActionResult CreateGuest(Guest newGuest)
     {
@@ -41,6 +44,9 @@ public class GuestController : Controller
         // return View ("AddGuest",newGuest);
         
     }
+
+
+
 
     [HttpPost("guests/login")]
     public IActionResult Login(Login loginGuest)
@@ -71,6 +77,9 @@ public class GuestController : Controller
         
         }
         return RedirectToAction("Index");
+
+
+        
     }
     [HttpPost("guests/logout")]
     public IActionResult Logout()

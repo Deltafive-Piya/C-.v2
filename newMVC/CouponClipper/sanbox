@@ -1,0 +1,50 @@
+@model List<Coupon>
+@{
+    int? UUID = Context.Session.GetInt32("UserId");
+}
+@await Html.PartialAsync("_Nav")
+<h2>Welcome, </h2>
+<div class="custom-container">
+    <table class="table">
+        <thead>
+            <tr>
+                <td>CouponOf</td>
+                <td>Date</td>
+                <td>User Count</td>
+                <td>Action</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Coupon coup in Model)
+            {
+                bool isRsvp = coup.AllUsers.Any(rsvp => rsvp.UserId == UUID);
+                <tr>
+                    <td>
+                        <a asp-action="ViewCoupon" asp-controller="Coupon" asp-route-id="@coup.CouponId">
+                            @coup.CouponCode & @coup.CouponUsedAt
+                        </a>
+                    </td>
+                    <td>@coup.CouponUsedAt.ToString()</td>
+                    <td>@coup.AllUsers.Count</td>
+                    <td>
+                        @if (coup.UserId == UUID)
+                        {
+                            <form asp-action="DeleteCoupon" asp-controller="Coupon" asp-route-id="@coup.CouponId" method="post">
+                                <input type="submit" value="Delete" />
+                            </form>
+                            @* <form asp-action="DeleteCoupon" asp-controller="Coupon" asp-route-id="@coup.CouponId" method="post">
+                                <input type="submit" value="Update" />
+                            </form> *@
+                        }
+                        else
+                        {
+                            <form asp-action="AddUser" asp-controller="Coupon" asp-route-id="@coup.CouponId" method="post">
+                                <input type="submit" value="@(isRsvp ? "UnRsvp" : "Rsvp")" />
+                            </form>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

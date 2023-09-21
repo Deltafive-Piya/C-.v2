@@ -1,0 +1,21 @@
+@model Coupon
+@await Html.PartialAsync("_Nav")
+<div class="custom-container">
+    <h4 class="custom-heading">Coupon Details</h4>
+    <p class="custom-subheading">Used where?: @Model.CouponUsedAt</p>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>User List:</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (CouponHasUsers users in Model.AllUsers)
+            {
+                <tr>
+                    <td>@users.User.UserName</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

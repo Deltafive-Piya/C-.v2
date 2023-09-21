@@ -21,3 +21,26 @@ html {
 body {
   margin-bottom: 60px;
 }
+.custom-container {
+  outline: solid 1px red;
+  padding: 10px;
+  min-height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: helvetica;
+  background-image: url('/images/HappyCouple.jpg') linear-gradient(rgba(255, 255, 255, 0.4);
+  background-position: center center;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.custom-heading {
+  letter-spacing: 2px;
+  color: pink;
+}
+
+.custom-subheading {
+  letter-spacing: 1px;
+  color: pink;
+}

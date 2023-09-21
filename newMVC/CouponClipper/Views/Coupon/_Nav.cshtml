@@ -1,0 +1,18 @@
+<div>
+    @Context.Session.GetString("UserFirstName")
+    <div>
+    <div style="float: left;">
+        <a asp-action="Dashboard" asp-controller="Coupon">Coupons</a>
+        <a asp-action="AddCoupon" asp-controller="Coupon">Add A Coupon</a>
+        <a asp-action="AccountInfo" asp-controller="Users">Account Info</a>
+    </div>
+    <div style="float: right;">
+        <form asp-action="Logout" asp-controller="User">
+            <div>
+                <input type="submit" value="Logout"/>
+            </div>
+        </form>
+    </div>
+    <div style="clear: both;"></div>
+</div>
+</div>

@@ -1,0 +1,22 @@
+@model User
+
+@{
+    ViewData["Title"] = "User Profile";
+}
+
+<h2>Account Details</h2>
+<div>
+    <dl>
+        <dt>Username:</dt>
+        <dd>@Model.UserName</dd>
+
+        <dt>Email:</dt>
+        <dd>@Model.Email</dd>
+
+        <dt>Coupons Posted:</dt>
+        <dd>@Model.Coupons.Count</dd>
+
+        <dt>Coupons Used:</dt>
+        <dd>@Model.IsUAs.Count</dd>
+    </dl>
+</div>

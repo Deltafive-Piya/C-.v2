@@ -9,61 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CouponClipper
 build_property.RootNamespace = CouponClipper
-build_property.ProjectDir = c:\C#\newMVC\CouponClipper\
+build_property.ProjectDir = c:\pregrad\C#\newMVC\CouponClipper\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\C#\newMVC\CouponClipper
+build_property.MSBuildProjectDirectory = c:\pregrad\C#\newMVC\CouponClipper
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/C\#/newMVC/CouponClipper/Views/Coupon/AddCoupon.cshtml]
+[c:/pregrad/C\#/newMVC/CouponClipper/Views/Coupon/AddCoupon.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cG9uXEFkZENvdXBvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/CouponClipper/Views/Coupon/Dashboard.cshtml]
+[c:/pregrad/C\#/newMVC/CouponClipper/Views/Coupon/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cG9uXERhc2hib2FyZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/CouponClipper/Views/Coupon/ViewCoupon.cshtml]
+[c:/pregrad/C\#/newMVC/CouponClipper/Views/Coupon/ViewCoupon.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cG9uXFZpZXdDb3Vwb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/CouponClipper/Views/Coupon/_Nav.cshtml]
+[c:/pregrad/C\#/newMVC/CouponClipper/Views/Coupon/_Nav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cG9uXF9OYXYuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/CouponClipper/Views/Shared/AccountInfo.cshtml]
+[c:/pregrad/C\#/newMVC/CouponClipper/Views/Shared/AccountInfo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFjY291bnRJbmZvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/CouponClipper/Views/Shared/Error.cshtml]
+[c:/pregrad/C\#/newMVC/CouponClipper/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/CouponClipper/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/pregrad/C\#/newMVC/CouponClipper/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/CouponClipper/Views/User/Index.cshtml]
+[c:/pregrad/C\#/newMVC/CouponClipper/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/CouponClipper/Views/User/_Login.cshtml]
+[c:/pregrad/C\#/newMVC/CouponClipper/Views/User/_Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxfTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/CouponClipper/Views/User/_RegisterUser.cshtml]
+[c:/pregrad/C\#/newMVC/CouponClipper/Views/User/_RegisterUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxfUmVnaXN0ZXJVc2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/CouponClipper/Views/_ViewImports.cshtml]
+[c:/pregrad/C\#/newMVC/CouponClipper/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/CouponClipper/Views/_ViewStart.cshtml]
+[c:/pregrad/C\#/newMVC/CouponClipper/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/CouponClipper/Views/Shared/_Layout.cshtml]
+[c:/pregrad/C\#/newMVC/CouponClipper/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-9hfe6hufpz

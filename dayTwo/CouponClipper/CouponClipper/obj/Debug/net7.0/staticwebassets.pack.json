@@ -9,8 +9,16 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\C#\\dayTwo\\CouponClipper\\CouponClipper\\wwwroot\\images\\CouponClipperBlackBelt.png",
+      "PackagePath": "staticwebassets\\images\\CouponClipperBlackBelt.png"
+    },
+    {
       "Id": "C:\\C#\\dayTwo\\CouponClipper\\CouponClipper\\wwwroot\\images\\HappyCouple.jpg",
       "PackagePath": "staticwebassets\\images\\HappyCouple.jpg"
+    },
+    {
+      "Id": "C:\\C#\\dayTwo\\CouponClipper\\CouponClipper\\wwwroot\\images\\RubricUpdated.png",
+      "PackagePath": "staticwebassets\\images\\RubricUpdated.png"
     },
     {
       "Id": "C:\\C#\\dayTwo\\CouponClipper\\CouponClipper\\wwwroot\\js\\site.js",

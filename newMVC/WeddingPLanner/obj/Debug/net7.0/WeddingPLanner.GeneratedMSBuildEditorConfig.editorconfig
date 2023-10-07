@@ -9,57 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WeddingPlanner
 build_property.RootNamespace = WeddingPlanner
-build_property.ProjectDir = c:\C#\newMVC\WeddingPlanner\
+build_property.ProjectDir = c:\pregrad\C#\newMVC\WeddingPlanner\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\C#\newMVC\WeddingPlanner
+build_property.MSBuildProjectDirectory = c:\pregrad\C#\newMVC\WeddingPlanner
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/C\#/newMVC/WeddingPlanner/Views/Guest/Index.cshtml]
+[c:/pregrad/C\#/newMVC/WeddingPlanner/Views/Guest/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3RcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/WeddingPlanner/Views/Guest/_Login.cshtml]
+[c:/pregrad/C\#/newMVC/WeddingPlanner/Views/Guest/_Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3RcX0xvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/WeddingPlanner/Views/Guest/_RegisterGuest.cshtml]
+[c:/pregrad/C\#/newMVC/WeddingPlanner/Views/Guest/_RegisterGuest.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3RcX1JlZ2lzdGVyR3Vlc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/WeddingPlanner/Views/Shared/Error.cshtml]
+[c:/pregrad/C\#/newMVC/WeddingPlanner/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/WeddingPlanner/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/pregrad/C\#/newMVC/WeddingPlanner/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/WeddingPlanner/Views/Wedding/AddWedding.cshtml]
+[c:/pregrad/C\#/newMVC/WeddingPlanner/Views/Wedding/AddWedding.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VkZGluZ1xBZGRXZWRkaW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/WeddingPlanner/Views/Wedding/Dashboard.cshtml]
+[c:/pregrad/C\#/newMVC/WeddingPlanner/Views/Wedding/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VkZGluZ1xEYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/WeddingPlanner/Views/Wedding/ViewWedding.cshtml]
+[c:/pregrad/C\#/newMVC/WeddingPlanner/Views/Wedding/ViewWedding.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VkZGluZ1xWaWV3V2VkZGluZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/WeddingPlanner/Views/Wedding/_Nav.cshtml]
+[c:/pregrad/C\#/newMVC/WeddingPlanner/Views/Wedding/_Nav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VkZGluZ1xfTmF2LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/WeddingPlanner/Views/_ViewImports.cshtml]
+[c:/pregrad/C\#/newMVC/WeddingPlanner/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/WeddingPlanner/Views/_ViewStart.cshtml]
+[c:/pregrad/C\#/newMVC/WeddingPlanner/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/WeddingPlanner/Views/Shared/_Layout.cshtml]
+[c:/pregrad/C\#/newMVC/WeddingPlanner/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-l8pyi8tiun

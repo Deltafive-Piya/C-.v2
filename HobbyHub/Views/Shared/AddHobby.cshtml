@@ -1,0 +1,17 @@
+@model Hobby
+
+<h1>Add a New Hobby</h1>
+
+<form asp-action="CreateHobby" asp-controller="Hobby"  method="post"> @*IACtionResult "CreateHobby" s triggered*@
+    <div class="form-group">
+        <label for="HobbyName">Name:</label>
+        <input asp-for="HobbyName" class="form-control" placeholder="What Hobby?">
+        <span asp-validation-for="HobbyName"></span>
+    </div>
+    <div class="form-group">
+        <label for="HobbyDescription">Description:</label>
+        <textarea asp-for="HobbyDescription" class="form-control" rows="3" placeholder="Enter hobby description"></textarea>
+        <span asp-validation-for="HobbyDescription"></span>
+    </div>
+    <input type="submit" value="Create" class="btn btn-primary"></button>
+</form>

@@ -60,3 +60,7 @@ body {
 .coupon-info {
   margin: 5px 0;
 }
+
+.addresses {
+  background-color: aqua;
+}

@@ -9,37 +9,37 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DateValidator
 build_property.RootNamespace = DateValidator
-build_property.ProjectDir = c:\C#\DateValidator\DateValidator\
+build_property.ProjectDir = c:\pregrad\C#\DateValidator\DateValidator\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\C#\DateValidator\DateValidator
+build_property.MSBuildProjectDirectory = c:\pregrad\C#\DateValidator\DateValidator
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/C\#/DateValidator/DateValidator/Views/Home/Index.cshtml]
+[c:/pregrad/C\#/DateValidator/DateValidator/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/DateValidator/DateValidator/Views/Home/Success.cshtml]
+[c:/pregrad/C\#/DateValidator/DateValidator/Views/Home/Success.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdWNjZXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/DateValidator/DateValidator/Views/Shared/Error.cshtml]
+[c:/pregrad/C\#/DateValidator/DateValidator/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/DateValidator/DateValidator/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/pregrad/C\#/DateValidator/DateValidator/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/DateValidator/DateValidator/Views/_ViewImports.cshtml]
+[c:/pregrad/C\#/DateValidator/DateValidator/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/DateValidator/DateValidator/Views/_ViewStart.cshtml]
+[c:/pregrad/C\#/DateValidator/DateValidator/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/DateValidator/DateValidator/Views/Shared/_Layout.cshtml]
+[c:/pregrad/C\#/DateValidator/DateValidator/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-e6dod2d4kh

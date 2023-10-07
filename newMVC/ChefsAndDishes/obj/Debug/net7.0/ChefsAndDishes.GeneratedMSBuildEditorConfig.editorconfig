@@ -9,49 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ChefsAndDishes
 build_property.RootNamespace = ChefsAndDishes
-build_property.ProjectDir = c:\C#\newMVC\ChefsAndDishes\
+build_property.ProjectDir = c:\pregrad\C#\newMVC\ChefsAndDishes\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\C#\newMVC\ChefsAndDishes
+build_property.MSBuildProjectDirectory = c:\pregrad\C#\newMVC\ChefsAndDishes
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/C\#/newMVC/ChefsAndDishes/Views/Chef/AddChef.cshtml]
+[c:/pregrad/C\#/newMVC/ChefsAndDishes/Views/Chef/AddChef.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlZlxBZGRDaGVmLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/ChefsAndDishes/Views/Chef/Index.cshtml]
+[c:/pregrad/C\#/newMVC/ChefsAndDishes/Views/Chef/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlZlxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/ChefsAndDishes/Views/Dish/AddDish.cshtml]
+[c:/pregrad/C\#/newMVC/ChefsAndDishes/Views/Dish/AddDish.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFxBZGREaXNoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/ChefsAndDishes/Views/Dish/ViewDish.cshtml]
+[c:/pregrad/C\#/newMVC/ChefsAndDishes/Views/Dish/ViewDish.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFxWaWV3RGlzaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/ChefsAndDishes/Views/Shared/Error.cshtml]
+[c:/pregrad/C\#/newMVC/ChefsAndDishes/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/ChefsAndDishes/Views/Shared/_navBar.cshtml]
+[c:/pregrad/C\#/newMVC/ChefsAndDishes/Views/Shared/_navBar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9uYXZCYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/ChefsAndDishes/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/pregrad/C\#/newMVC/ChefsAndDishes/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/ChefsAndDishes/Views/_ViewImports.cshtml]
+[c:/pregrad/C\#/newMVC/ChefsAndDishes/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/ChefsAndDishes/Views/_ViewStart.cshtml]
+[c:/pregrad/C\#/newMVC/ChefsAndDishes/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/newMVC/ChefsAndDishes/Views/Shared/_Layout.cshtml]
+[c:/pregrad/C\#/newMVC/ChefsAndDishes/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-nfy0wyx8b9

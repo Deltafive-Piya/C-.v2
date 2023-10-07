@@ -9,37 +9,37 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DojoSurveyWithValidations
 build_property.RootNamespace = DojoSurveyWithValidations
-build_property.ProjectDir = c:\C#\DojoSurveyWithValidations\
+build_property.ProjectDir = c:\pregrad\C#\DojoSurveyWithValidations\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\C#\DojoSurveyWithValidations
+build_property.MSBuildProjectDirectory = c:\pregrad\C#\DojoSurveyWithValidations
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/C\#/DojoSurveyWithValidations/Views/Home/Display.cshtml]
+[c:/pregrad/C\#/DojoSurveyWithValidations/Views/Home/Display.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEaXNwbGF5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/DojoSurveyWithValidations/Views/Home/Index.cshtml]
+[c:/pregrad/C\#/DojoSurveyWithValidations/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/DojoSurveyWithValidations/Views/Shared/Error.cshtml]
+[c:/pregrad/C\#/DojoSurveyWithValidations/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/DojoSurveyWithValidations/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/pregrad/C\#/DojoSurveyWithValidations/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/DojoSurveyWithValidations/Views/_ViewImports.cshtml]
+[c:/pregrad/C\#/DojoSurveyWithValidations/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/DojoSurveyWithValidations/Views/_ViewStart.cshtml]
+[c:/pregrad/C\#/DojoSurveyWithValidations/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/C\#/DojoSurveyWithValidations/Views/Shared/_Layout.cshtml]
+[c:/pregrad/C\#/DojoSurveyWithValidations/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-zyh7mout1e

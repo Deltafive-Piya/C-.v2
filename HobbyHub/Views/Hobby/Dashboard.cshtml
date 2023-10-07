@@ -1,0 +1,23 @@
+@model List<Hobby>
+<h1>Hobby Dashboard</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Hobby Name</th>
+            <th>Enthusiast Count</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var hobby in Model)
+        {
+            <tr>
+                <td>
+                <a asp-action="ViewHobby" asp-route-id="@hobby.HobbyId">@hobby.HobbyName</a>
+                </td>
+                <td>@hobby.EnthusiastCount</td>
+            </tr>
+        }
+    </tbody>
+</table>
+    <a class="nav-link text-dark" asp-area="" asp-controller="Hobby" asp-action="AddHobby">Add/Create a Hobby</a>

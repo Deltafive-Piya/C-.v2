@@ -1,0 +1,28 @@
+<!-- Within Dashboard -->
+
+<form asp-action="AddUser" asp-controller="Coupon" asp-route-id="@coup.CouponId" method="post">
+    <input type="submit" value="Use This Coupon" />
+</form>
+
+
+//Todo- Explain this Action/View
+[HttpPost("coupon/{id}/iUA")]
+public IActionResult AddUser(int id)
+{
+    int UUID = (int)HttpContext.Session.GetInt32("UserId");
+    CouponHasUsers iUA = _context.CouponHasUsers.FirstOrDefault(r => r.CouponId == id && r.UserId == UUID);
+    if (iUA == null)
+    {
+        CouponHasUsers isiUAd = new()
+        {
+            UserId = UUID,
+            CouponId = id
+        };
+        _context.Add(isiUAd);
+        
+    } else {
+        _context.Remove(iUA);
+    }
+    _context.SaveChanges();
+    return RedirectToAction("Dashboard");
+}

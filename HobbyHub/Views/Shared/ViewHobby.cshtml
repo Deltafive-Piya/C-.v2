@@ -1,0 +1,38 @@
+@model Hobby
+@{
+    int? userId = Context.Session.GetInt32("UserId");
+}
+
+<h1>@Model.HobbyName</h1>
+
+<div>
+    <h3>Description:</h3>
+    <p>@Model.HobbyDescription</p>
+</div>
+
+<div>
+    <h3>Enthusiasts:</h3>
+    <ul>
+        @foreach (var user in Model.AllUsers)
+        {
+            <li>@user.User.FName @user.User.LName</li>
+        }
+    </ul>
+</div>
+
+@if (userId.HasValue)
+{
+    bool isEnthusiast = Model.AllUsers.Any(u => u.UserId == userId);
+    if (!isEnthusiast)
+    {
+        <form asp-action="AddUser" asp-controller="Hobby" asp-route-id="@Model.HobbyId" method="post">
+            <input type="hidden" name="id" value="@Model.HobbyId" />
+            <button type="submit" class="btn btn-primary">Add as Enthusiast</button>
+        </form>
+    }
+    // Remove the else block here to ensure the button is not displayed when the user is already an enthusiast
+}
+else
+{
+    <p>Login to add as an enthusiast.</p>
+}

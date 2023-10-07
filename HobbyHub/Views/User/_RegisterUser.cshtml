@@ -1,0 +1,52 @@
+@model User
+<form asp-action="CreateUser" asp-controller="User" method="post" style="
+                                                                        display: flex;
+                                                                        flex-direction: column;
+                                                                        
+                                                                        ">
+    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+        @* <label for="FName" style="width: 150px;">First Name:</label> *@
+        <div style="flex-grow: 1;">
+            <input asp-for="FName" placeholder="first name" style="width: 100%;" />
+            <span asp-validation-for="FName"></span>
+        </div>
+    </div>
+    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+        @* <label for="LastName" style="width: 150px;">Last Name:</label> *@
+        <div style="flex-grow: 1;">
+            <input asp-for="LName" placeholder="surname" style="width: 100%;" />
+            <span asp-validation-for="LName"></span>
+        </div>
+    </div>
+    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+        @* <label for="UName" style="width: 150px;">UName:</label> *@
+        <div style="flex-grow: 1;">
+            <input asp-for="UName" placeholder="user name" style="width: 100%;" />
+            <span asp-validation-for="UName"></span>
+        </div>
+    </div>
+    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+        @* <label for="Password" style="width: 150px;">Password:</label> *@
+        <div style="flex-grow: 1;">
+            <input asp-for="Password" type="password" placeholder="password" style="width: 100%;" />
+            <span asp-validation-for="Password"></span>
+        </div>
+    </div>
+    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+        @* <label for="ConfirmPassword" style="width: 150px;">Confirm Password:</label> *@
+        <div style="flex-grow: 1;">
+            <input asp-for="ConfirmPassword" type="password" placeholder="confirm password" style="width: 100%;" />
+            <span asp-validation-for="ConfirmPassword"></span>
+        </div>
+    </div>
+    <input type="submit" value="Register" style="
+                                            align-self: center;
+                                            width: 100px; 
+                                            margin-top: 10px;
+                                            background-color: rgba(255, 166, 0, 0.521); color: white;
+                                            padding: 10px 20px;
+                                            border: none;
+                                            cursor: ;
+                                            border-radius: 19px;
+                                             "/>
+</form>

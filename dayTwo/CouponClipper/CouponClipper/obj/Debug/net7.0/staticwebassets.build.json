@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/AdBiOWtU/6o8ILYJFu+ufBpv7CETl3JJcBcsmwUip0=",
+  "Hash": "3o/16sdE8oiauDpjxGGo0t/tsdxwBWoZd8LhfTEU1lY=",
   "Source": "CouponClipper",
   "BasePath": "_content/CouponClipper",
   "Mode": "Default",
@@ -68,6 +68,23 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "C:\\C#\\dayTwo\\CouponClipper\\CouponClipper\\wwwroot\\images\\CouponClipperBlackBelt.png",
+      "SourceId": "CouponClipper",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\C#\\dayTwo\\CouponClipper\\CouponClipper\\wwwroot\\",
+      "BasePath": "_content/CouponClipper",
+      "RelativePath": "images/CouponClipperBlackBelt.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\CouponClipperBlackBelt.png"
+    },
+    {
       "Identity": "C:\\C#\\dayTwo\\CouponClipper\\CouponClipper\\wwwroot\\images\\HappyCouple.jpg",
       "SourceId": "CouponClipper",
       "SourceType": "Discovered",
@@ -83,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\HappyCouple.jpg"
+    },
+    {
+      "Identity": "C:\\C#\\dayTwo\\CouponClipper\\CouponClipper\\wwwroot\\images\\RubricUpdated.png",
+      "SourceId": "CouponClipper",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\C#\\dayTwo\\CouponClipper\\CouponClipper\\wwwroot\\",
+      "BasePath": "_content/CouponClipper",
+      "RelativePath": "images/RubricUpdated.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\RubricUpdated.png"
     },
     {
       "Identity": "C:\\C#\\dayTwo\\CouponClipper\\CouponClipper\\wwwroot\\js\\site.js",

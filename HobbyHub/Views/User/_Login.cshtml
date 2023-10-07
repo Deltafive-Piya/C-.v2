@@ -1,0 +1,26 @@
+@model Login
+<form asp-action="Login" asp-controller="User" method="post" style="margin-top: 10px;">
+    <div style="margin-bottom: 10px;">
+        @* <label for="LogUName">UName:</label> *@
+        <span asp-validation-for="LogUName" style="color: red;"></span>
+    </div>
+    <div style="margin-bottom: 10px;">
+        @* <label for="LogPassword">Password:</label> *@
+        <span asp-validation-for="LogPassword" style="color: red;"></span>
+    </div>
+    <div style="margin-bottom: 10px;">
+        <input asp-for="LogUName" placeholder="user name" style="width: 100%; padding: 5px;" />
+    </div>
+    <div style="margin-bottom: 10px;">
+        <input asp-for="LogPassword" type="password" placeholder="password" style="width: 100%; padding: 5px;" />
+    </div>
+    <div style="margin-top: 10px;">
+        <input type="submit" value="Login" style="
+                                                background-color: rgba(255, 166, 0, 0.555); color: white;
+                                                padding: 10px 20px;
+                                                border: none;
+                                                cursor: pointer;
+                                                border-radius: 19px;
+                                                " />
+    </div>
+</form>
